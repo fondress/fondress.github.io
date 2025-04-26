@@ -1,4 +1,119 @@
-（前文保持不变，继续补充）
+sidebar:
+  position: right
+  about: True
+  education: True
+
+  name: 翏霝修 (Jixiu Zhai)
+  tagline-en: Mathematics Student & AI Researcher
+  tagline-zh: 数学专业学生与人工智能研究者
+  avatar: PHOTO.jpg
+
+  email: 320220948121@lzu.edu.cn
+  phone: 19393105540
+  timezone: Asia/Shanghai
+  citizenship: Chinese
+  website: https://github.com/fondress
+  github: fondress
+
+  languages:
+    title-en: Languages
+    title-zh: 语言技能
+    info:
+    - idiom: English
+      level: CET-6 (462)
+    - idiom: Chinese
+      level: Native
+
+  interests:
+    title-en: Interests
+    title-zh: 兴趣爱好
+    info:
+    - item: Artificial Intelligence
+    - item: Deep Learning
+    - item: Mathematics
+
+career-profile:
+  title-en: Career Profile
+  title-zh: 职业概览
+  summary-en: |
+    I am a mathematics student specializing in AI for Science and deep learning research. I have undertaken multiple research projects focused on protein structure prediction, multimodal frameworks, and visual large language models. My academic and professional journey is driven by a passion for solving scientific challenges using AI.
+  summary-zh: |
+    我是一名数学专业学生，致力于科学领域人工智能与深度学习研究。我从事过多项关于蛋白质结构预测、多模态框架、视觉型大型语言模型的研究项目，并且一直以利用AI解决科学挑战为学术和职业动力。
+
+education:
+  title-en: Education
+  title-zh: 教育经历
+  info:
+  - degree-en: Bachelor of Science in Mathematics (Fundamental Theory Program)
+    degree-zh: 数学学士（基础理论班）
+    university: Lanzhou University, School of Mathematics and Statistics
+    time: 2022 - Present
+    details-en: |
+      - Research Focus: AI for Science, Deep Learning
+      - GPA: 85.8 (Rank 14/122)
+      - English Proficiency: CET-4 (557), CET-6 (462)
+    details-zh: |
+      - 研究方向：科学领域人工智能，深度学习
+      - GPA：85.8（排名 14/122）
+      - 英语水平：CET-4（557），CET-6（462）
+
+awards:
+  title-en: Awards
+  title-zh: 奖项荣誉
+  info:
+  - name-en: National Scholarship
+    name-zh: 国家奖学金
+    year: 2023 - 2024
+    details-en: Rank 3/50
+    details-zh: 排名 3/50
+
+  - name-en: Mathematics and Statistics Peach Blossom Scholarship
+    name-zh: 数统桃花奖学金
+    year: 2023 - 2024
+    details-en: Second Prize
+    details-zh: 二等奖
+
+  - name-en: Lanzhou University Learning Model
+    name-zh: 兰州大学学习之星
+    year: 2023 - 2024
+    details-en: Recognized for academic excellence.
+    details-zh: 因学习成绩优秀而被表彰
+
+  - name-en: National Undergraduate Mathematics Contest
+    name-zh: 全国大学生数学比赛
+    year: 2023
+    details-en: Gansu Province Second Prize
+    details-zh: 甘肃省二等奖
+
+  - name-en: National Undergraduate Mathematical Modeling Contest
+    name-zh: 全国大学生数学模型竞赛
+    year: 2024
+    details-en: Gansu Province First Prize
+    details-zh: 甘肃省一等奖
+
+  - name-en: "Challenge Cup" Startup Plan Competition (Jilin)
+    name-zh: 挑战杯创业计划竞赛（吉林）
+    year: 2024
+    details-en: Silver Award
+    details-zh: 银奖
+
+experiences:
+  title-en: Research Experience
+  title-zh: 科研经历
+  info:
+  - role-en: Project Lead
+    role-zh: 项目负责人
+    time: 2024 - 2025
+    project-en: National Innovation and Entrepreneurship Project
+    project-zh: 国家创新创业项目
+    details-en: |
+      - Topic: Deep learning-based prediction of protein biological characteristics.
+      - Highlights: Developed models combining CNN and Transformer modules with improved pretraining and weighted loss functions for protein feature prediction.
+      - Responsibilities: Modeling, data collection, experiment design, visualization, paper writing, and defense.
+    details-zh: |
+      - 研究主题：基于深度学习的蛋白质生物定性预测
+      - 主要成果：开发融合CNN与Transformer模块的模型，提升预训练与权重损失函数
+      - 负责内容：模型建立，数据采集，实验设计，数据可视化，论文编写与答辩
 
 projects:
   title-en: Academic Projects

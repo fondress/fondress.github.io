@@ -1,39 +1,28 @@
 {% assign career-profile = site.data.data.career-profile %}
 {% if career-profile %}
+
 <section class="section summary-section">
 
-  <h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-user fa-stack-1x fa-inverse"></i>
-    </span>
-    <span lang="en">{{ career-profile.title-en }}</span>
-    <span lang="zh" style="display: none;">{{ career-profile.title-zh }}</span>
-  </h2>
+<h2 class="section-title">
 
-  <div class="summary">
-    <p lang="en">{{ career-profile.summary-en | markdownify }}</p>
-    <p lang="zh" style="display: none;">{{ career-profile.summary-zh | markdownify }}</p>
-  </div><!--//summary-->
-    
+<span class="fa-stack fa-xs">
+
+<i class="fas fa-circle fa-stack-2x"></i>
+
+<i class="fas fa-user fa-stack-1x fa-inverse"></i>
+
+</span>
+
+{{ career-profile.title }}
+
+</h2>
+
+<div class="summary">
+
+{{ career-profile.summary | markdownify }}
+
+</div><!--//summary-->
+
 </section><!--//section-->
-{% endif %}
 
-<script>
-  // JavaScript for language toggle
-  document.addEventListener('DOMContentLoaded', function () {
-    const langButtons = document.querySelectorAll('.lang-toggle');
-    langButtons.forEach(button => {
-      button.addEventListener('click', function () {
-        const lang = this.getAttribute('data-lang');
-        document.querySelectorAll('[lang]').forEach(el => {
-          if (el.getAttribute('lang') === lang) {
-            el.style.display = '';
-          } else {
-            el.style.display = 'none';
-          }
-        });
-      });
-    });
-  });
-</script>
+{% endif %}

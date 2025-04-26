@@ -1,146 +1,137 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
 sidebar:
-  position: right
-  about: True
-  education: True
+  position: right # position of the sidebar: left or right
+  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
+  # Profile information
   name: 翟霁修 (Jixiu Zhai)
-  tagline-en: Mathematics Student & AI Researcher
-  tagline-zh: 数学专业学生与人工智能研究者
-  avatar: PHOTO.jpg
+  tagline: Mathematics Student & AI Researcher
+  avatar: PHOTO.jpg # Place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
+  # Sidebar links
   email: 320220948121@lzu.edu.cn
   phone: 19393105540
-  timezone: Asia/Shanghai
+  timezone: Asia/Shanghai # Updated to match location
   citizenship: Chinese
-  website: https://github.com/fondress
-  github: fondress
+  website: https://github.com/fondress # Updated to match GitHub profile
+  linkedin: 
+  github: fondress # Updated GitHub username
+  telegram: 
+  gitlab: 
+  bitbucket: 
+  bluesky: 
+  twitter: 
+  stack-overflow: 
+  codewars: 
+  goodreads: 
+  mastodon: 
+  hackerrank: 
+  leetcode: 
+  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
 
   languages:
-    title-en: Languages
-    title-zh: 语言技能
+    title: Languages
     info:
     - idiom: English
       level: CET-6 (462)
+
     - idiom: Chinese
       level: Native
 
   interests:
-    title-en: Interests
-    title-zh: 兴趣爱好
+    title: Interests
     info:
     - item: Artificial Intelligence
+      link:
+
     - item: Deep Learning
+      link:
+
     - item: Mathematics
+      link:
 
 career-profile:
-  title-en: Career Profile
-  title-zh: 职业概览
-  summary-en: |
+  title: Career Profile
+  summary: |
     I am a mathematics student specializing in AI for Science and deep learning research. I have undertaken multiple research projects focused on protein structure prediction, multimodal frameworks, and visual large language models. My academic and professional journey is driven by a passion for solving scientific challenges using AI.
-  summary-zh: |
-    我是一名数学专业学生，致力于科学领域人工智能与深度学习研究。我从事过多项关于蛋白质结构预测、多模态框架、视觉型大型语言模型的研究项目，并且一直以利用AI解决科学挑战为学术和职业动力。
-
+    You can [download this free resume/CV template here](https://drive.google.com/file/d/1MWy43pW4SGSKqA51KcyZqR7oa8_Krt-d/view).
 education:
-  title-en: Education
-  title-zh: 教育经历
+  title: Education
   info:
-  - degree-en: Bachelor of Science in Mathematics (Fundamental Theory Program)
-    degree-zh: 数学学士（基础理论班）
+  - degree: Bachelor of Science in Mathematics (Fundamental Theory Program)
     university: Lanzhou University, School of Mathematics and Statistics
     time: 2022 - Present
-    details-en: |
+    details: |
       - Research Focus: AI for Science, Deep Learning
       - GPA: 85.8 (Rank 14/122)
       - English Proficiency: CET-4 (557), CET-6 (462)
-    details-zh: |
-      - 研究方向：科学领域人工智能，深度学习
-      - GPA：85.8（排名 14/122）
-      - 英语水平：CET-4（557），CET-6（462）
 
 awards:
-  title-en: Awards
-  title-zh: 奖项荣誉
+  title: Awards
   info:
-  - name-en: National Scholarship
-    name-zh: 国家奖学金
+  - name: National Scholarship
     year: 2023 - 2024
-    details-en: Rank 3/50
-    details-zh: 排名 3/50
+    details: Rank 3/50
 
-  - name-en: Mathematics and Statistics Peach Blossom Scholarship
-    name-zh: 数统桃花奖学金
+  - name: Mathematics and Statistics Peach Blossom Scholarship
     year: 2023 - 2024
-    details-en: Second Prize
-    details-zh: 二等奖
+    details: Second Prize
 
-  - name-en: Lanzhou University Learning Model
-    name-zh: 兰州大学学习之星
+  - name: Lanzhou University Learning Model
     year: 2023 - 2024
-    details-en: Recognized for academic excellence.
-    details-zh: 因学习成绩优秀而被表彰
+    details: Recognized for academic excellence.
 
-  - name-en: National Undergraduate Mathematics Contest
-    name-zh: 全国大学生数学比赛
+  - name: National Undergraduate Mathematics Contest
     year: 2023
-    details-en: Gansu Province Second Prize
-    details-zh: 甘肃省二等奖
+    details: Gansu Province Second Prize
 
-  - name-en: National Undergraduate Mathematical Modeling Contest
-    name-zh: 全国大学生数学模型竞赛
+  - name: National Undergraduate Mathematical Modeling Contest
     year: 2024
-    details-en: Gansu Province First Prize
-    details-zh: 甘肃省一等奖
+    details: Gansu Province First Prize
 
-  - name-en: Challenge Cup Startup Plan Competition (Jilin)
-    name-zh: 挑战杯创业计划竞赛（吉林）
+  - name: “Challenge Cup” Startup Plan Competition (Jilin)
     year: 2024
-    details-en: Silver Award
-    details-zh: 银奖
+    details: Silver Award
 
 experiences:
-  title-en: Research Experience
-  title-zh: 科研经历
+  title: Research Experience
   info:
-  - role-en: Project Lead
-    role-zh: 项目负责人
+  - role: Project Lead
     time: 2024 - 2025
-    project-en: National Innovation and Entrepreneurship Project
-    project-zh: 国家创新创业项目
-    details-en: |
+    project: National Innovation and Entrepreneurship Project
+    details: |
       - Topic: Deep learning-based prediction of protein biological characteristics.
       - Highlights: Developed models combining CNN and Transformer modules with improved pretraining and weighted loss functions for protein feature prediction.
       - Responsibilities: Modeling, data collection, experiment design, visualization, paper writing, and defense.
-    details-zh: |
-      - 研究主题：基于深度学习的蛋白质生物定性预测
-      - 主要成果：开发融合CNN与Transformer模块的模型，提升预训练与权重损失函数
-      - 负责内容：模型建立，数据采集，实验设计，数据可视化，论文编写与答辩
 
-projects:
-  title-en: Academic Projects
-  title-zh: 学术项目
-  intro-en: >
-    Below are academic and open-source projects that demonstrate my expertise in AI research and development.
-  intro-zh: >
-    以下是展示我在人工智能研究与开发领域专长的学术及开源项目。
-  assignments:
-  - title: PDeepPP
-    link: https://huggingface.co/fondress/PDeepPP
-    tagline-en: A general language model for peptide identification.
-    tagline-zh: 一个用于肽段识别的通用语言模型。
+  - role: Leader
+    time: 2025 - 2026
+    project: National Innovation and Entrepreneurship Project
+    details: |
+      - Topic: Exploring protein-small molecule binding affinity using SMILES-based pretrained deep learning frameworks.
+      - Responsibilities: Guided team members on data alignment, experiment design, and paper revisions.
 
-  - title: PhosF3C
-    link: https://www.biorxiv.org/content/10.1101/2024.12.25.630296v1
-    tagline-en: A feature fusion architecture for phosphorylation site prediction.
-    tagline-zh: 用于磷酸化位点预测的特征融合架构。
+  - role: Member
+    time: 2024 - 2025
+    project: Visual Large Language Model Knowledge Editing
+    details: |
+      - Advisor: Professor Huang Yumei
+      - Focus: Improving editing efficiency and quality of visual large language models (LVLMs).
+      - Responsibilities: Implementing EasyEdit-based knowledge editing methods.
 
-  - title: SCMPPI
-    link: https://arxiv.org/abs/2504.02698
-    tagline-en: A supervised contrastive multimodal framework for predicting protein-protein interactions.
-    tagline-zh: 一个用于蛋白质-蛋白质相互作用预测的监督式对比学习多模态框架。
+  - role: Core Member
+    time: 2025 - 2026
+    project: Protein-RNA Binding Affinity Prediction
+    details: |
+      - Advisor: Professor Zhao Xuejing
+      - Responsibilities: Data collection and processing, experiment design, and assisting with paper writing and revisions.
 
 certifications:
-  title-en: Certifications
-  title-zh: 证书
+  title: Certifications
   list:
   - name: Deep Learning Specialization
     start: 2023
@@ -148,37 +139,44 @@ certifications:
     organization: Coursera
     credentialid: DLSP-12345
     credentialurl: https://coursera.org/
-    details-en: |
+    details: |
       Completed courses on neural networks, CNNs, and sequence models.
-    details-zh: |
-      完成了关于神经网络、卷积神经网络（CNN）及序列模型的课程。
+
+projects:
+  title: Academic Projects
+  intro: >
+    Below are academic and open-source projects that demonstrate my expertise in AI research and development.
+  assignments:
+  - title: PDeepPP
+    link: https://huggingface.co/fondress/PDeepPP
+    tagline: A general language model for peptide identification.
+
+  - title: PhosF3C
+    link: https://www.biorxiv.org/content/10.1101/2024.12.25.630296v1
+    tagline: A feature fusion architecture for phosphorylation site prediction.
+
+  - title: SCMPPI
+    link: https://arxiv.org/abs/2504.02698
+    tagline: A supervised contrastive multimodal framework for predicting protein-protein interactions.
 
 skills:
-  title-en: Skills & Proficiency
-  title-zh: 技能与熟练度
+  title: Skills & Proficiency
+
   toolset:
   - name: Python
-    level-en: Expert
-    level-zh: 精通
+    level: Expert
 
   - name: C++
-    level-en: Advanced
-    level-zh: 高级
+    level: Advanced
 
   - name: Deep Learning Frameworks (PyTorch, Transformers)
-    level-en: Expert
-    level-zh: 精通
+    level: Expert
 
   - name: Data Analysis Libraries (Scikit-learn, Jupyter)
-    level-en: Advanced
-    level-zh: 高级
+    level: Advanced
 
   - name: Tools (Git, Docker, Linux)
-    level-en: Advanced
-    level-zh: 高级
+    level: Advanced
 
-footer:
-  text-en: >
-    Designed with <i class="fas fa-heart"></i> by Jixiu Zhai
-  text-zh: >
-    由翟霁修设计
+footer: >
+  Designed with <i class="fas fa-heart"></i> by Jixiu Zhai

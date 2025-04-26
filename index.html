@@ -1,31 +1,23 @@
----
 layout: default
 ---
 
-<!-- Language Switch Button -->
-<div style="text-align: right; margin: 10px;">
-  <button onclick="toggleLanguage()" class="btn btn-primary">切换语言 / Switch Language</button>
-</div>
 
-<!-- Main Resume Content -->
-<div id="resume-content">
-  {% include career-profile.html %}
+{% include career-profile.html %}
 
-  {% unless site.data.data.sidebar.education %}
-    {% include education.html %}
-  {% endunless %}
+{% unless site.data.data.sidebar.education %}
+  {% include education.html %}
+{% endunless %}
 
-  {% include experiences.html %}
+{% include experiences.html %}
 
-  {% include certifications.html %}
+{% include certifications.html %}
 
-  {% include projects.html %}
+{% include projects.html %}
 
-  {% include oss-contributions.html %}
+{% include oss-contributions.html %}
 
-  {% include publications.html %}
+{% include publications.html %}
 
-  {% include recommendations.html %}
+{% include recommendations.html %}
 
-  {% include skills.html %}
-</div>
+{% include skills.html %}

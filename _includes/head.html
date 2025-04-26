@@ -5,10 +5,11 @@
   <meta charset="utf-8">
   {% if site.chrome_mobile_color %}
   <meta name="theme-color" content="{{ site.chrome_mobile_color }}">
-  {% endif %}
+  {% endif%}
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="{{ site.description |default: "A beautiful Jekyll theme for creating resume" }}">
+  <meta name="description" content="{{ site.description |default: "A beautiful
+  Jekyll theme for creating resume" }}">
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="favicon.ico">
@@ -21,29 +22,9 @@
 
   <!-- Theme CSS -->
   <link id="theme-style" rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
-
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-  <![endif]-->
-
-  <!-- Language Switch Script (added) -->
-  <script>
-    let currentLang = 'en';
-    function toggleLanguage() {
-      if (currentLang === 'en') {
-        document.querySelectorAll('[lang-en]').forEach(el => el.style.display = 'none');
-        document.querySelectorAll('[lang-zh]').forEach(el => el.style.display = 'block');
-        currentLang = 'zh';
-      } else {
-        document.querySelectorAll('[lang-en]').forEach(el => el.style.display = 'block');
-        document.querySelectorAll('[lang-zh]').forEach(el => el.style.display = 'none');
-        currentLang = 'en';
-      }
-    }
-    document.addEventListener('DOMContentLoaded', function () {
-      document.querySelectorAll('[lang-zh]').forEach(el => el.style.display = 'none');
-    });
-  </script>
+    <![endif]-->
 </head>

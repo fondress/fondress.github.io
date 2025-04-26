@@ -1,28 +1,26 @@
 {% assign awards = site.data.data.awards %}
 {% if awards %}
+
 <section class="section awards-section">
+
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-trophy fa-stack-1x fa-inverse"></i>
     </span>
-    <span lang="en">{{ awards.title-en }}</span>
-    <span lang="zh" style="display: none;">{{ awards.title-zh }}</span>
+    {{ awards.title }}
   </h2>
 
-  <div class="awards">
+  <ul class="fa-ul">
     {% for award in awards.info %}
-    <div class="award-item">
-      <h3>
-        <span lang="en">{{ award.name-en }}</span>
-        <span lang="zh" style="display: none;">{{ award.name-zh }}</span>
-      </h3>
-      <p>
-        <span lang="en">{{ award.year }} - {{ award.details-en }}</span>
-        <span lang="zh" style="display: none;">{{ award.year }} - {{ award.details-zh }}</span>
-      </p>
-    </div>
+    <li>
+      <span class="fa-li"><i class="fas fa-award"></i></span>
+      <strong>{{ award.name }}</strong> ({{ award.year }})
+      <p>{{ award.details }}</p>
+    </li>
     {% endfor %}
-  </div><!--//awards-->
+  </ul>
+
 </section><!--//section-->
+
 {% endif %}

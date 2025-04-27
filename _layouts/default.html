@@ -1,72 +1,91 @@
 <!DOCTYPE html>
+
 <!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+
 {% include head.html %}
+
 <body>
 
+<!-- 语言切换按钮样式和DOM -->
+
 <style>
-/* 语言切换按钮样式 */
+
 .lang-switch {
-  width: 100%;
-  text-align: right;
-  margin-bottom: 2rem;
-  margin-top: 1rem;
+
+position: absolute; right: 60rem; top: 0rem; font-size: 3rem;
+
 }
 
 .lang-switch a {
-  display: inline-block;
-  padding: 0.3em 1em;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  background: #f5f5f5;
-  text-decoration: none;
-  color: #333;
-  margin-left: 0.5em;
-  font-size: 1.1rem;
-  transition: background 0.2s;
+
+padding: 0.3em 0.8em;
+
+border: 1px solid #ccc;
+
+border-radius: 4px;
+
+background: #f5f5f5;
+
+text-decoration: none;
+
+color: #333;
+
+margin-left: 0.5em;
+
 }
 
 .lang-switch a:hover {
-  background: #e0e0e0;
+
+background: #e0e0e0;
+
 }
 
-@media (max-width: 600px) {
-  .lang-switch {
-    text-align: center;
-    margin-bottom: 1rem;
-    margin-top: 0.5rem;
-  }
-  .lang-switch a {
-    font-size: 1rem;
-    padding: 0.3em 0.7em;
-  }
-}
 </style>
 
+<div class="lang-switch">
+
+{% if page.url contains '/zh/' %}
+
+<a href="{{ '/' | relative_url }}">English</a>
+
+{% else %}
+
+<a href="{{ '/zh/' | relative_url }}">中文</a>
+
+{% endif %}
+
+</div>
+
+<!-- 语言切换按钮结束 -->
+
 <div class="wrapper">
-  <!-- 语言切换按钮放在主内容卡片顶部 -->
-  <div class="lang-switch">
-    {% if page.url contains '/zh/' %}
-      <a href="{{ '/' | relative_url }}">English</a>
-    {% else %}
-      <a href="{{ '/zh/' | relative_url }}">中文</a>
-    {% endif %}
-  </div>
-  <!-- 按钮结束 -->
 
-  {% if page.lang == 'zh' %}
-    {% include sidebar.html page_data=site.data.data_zh %}
-  {% else %}
-    {% include sidebar.html page_data=site.data.data_en %}
-  {% endif %}
+{% if page.lang == 'zh' %}
 
-  <div class="main-wrapper">
-    {{ content }}
-  </div>
+{% include sidebar.html page_data=site.data.data_zh %}
+
+{% else %}
+
+{% include sidebar.html page_data=site.data.data_en %}
+
+{% endif %}
+
+<div class="main-wrapper">
+
+{{ content }}
+
+</div>
+
 </div>
 
 {% include footer.html %}
+
 {% include scripts.html %}
+
 </body>
+
 </html>

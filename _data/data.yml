@@ -148,17 +148,17 @@ publications:
   intro: |
     Below are selected publications related to my research in AI, bioinformatics, and protein analysis.
   papers:
-  - title: PDeepPP: A Comprehensive Protein Language Model Hub
+  - title: A General Language Model for Peptide Identification
     link: https://huggingface.co/fondress/PDeepPP
     authors: Yuhuan Liu, Haitian Zhong, Jixiu Zhai, Xueying Wang, Tianchi Lu
     conference: Hugging Face, 2025
 
-  - title: PhosF3C: A Feature Fusion Architecture with Fine-Tuned Protein Language Model and Conformer for Prediction of General Phosphorylation Sites
+  - title: PhosF3C:A Feature Fusion Architecture with Fine-Tuned Protein Language Model and Conformer for Prediction of General Phosphorylation Sites
     link: https://www.biorxiv.org/content/10.1101/2024.12.25.630296v1
     authors: Yuhuan Liu, Haitian Zhong, Jixiu Zhai, Xueying Wang, Tianchi Lu
     conference: bioRxiv, 2024
 
-  - title: SCMPPI: Supervised Contrastive Multimodal Framework for Predicting Protein-Protein Interactions
+  - title: SCMPPI:Supervised Contrastive Multimodal Framework for Predicting Protein-Protein Interactions
     link: https://arxiv.org/abs/2504.02698
     authors: Shengrui Xu, Tianchi Lu, Zikun Wang, Jixiu Zhai, Jingwan Wang
     conference: arXiv, 2025

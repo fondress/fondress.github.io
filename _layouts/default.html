@@ -1,6 +1,3 @@
----
-#Add "layout: compress" here to compress the html code
----
 <!DOCTYPE html>
 <!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
@@ -8,6 +5,16 @@
 {% include head.html %}
 
 <body>
+  <!-- 语言切换按钮开始 -->
+  <div style="text-align: right; margin: 1em 2em 0 0;">
+    {% if page.url contains '/zh/' %}
+      <a href="{{ '/' | relative_url }}">English</a>
+    {% else %}
+      <a href="{{ '/zh/' | relative_url }}">中文</a>
+    {% endif %}
+  </div>
+  <!-- 语言切换按钮结束 -->
+
   <div class="wrapper">
     {% include sidebar.html %}
 
@@ -22,4 +29,3 @@
 </body>
 
 </html>
-

@@ -143,22 +143,25 @@ certifications:
     details: |
       Completed courses on neural networks, CNNs, and sequence models.
 
-projects:
-  title: Academic Projects
-  intro: >
-    Below are academic and open-source projects that demonstrate my expertise in AI research and development.
-  assignments:
-  - title: PDeepPP
+publications:
+  title: Publications
+  intro: |
+    Below are selected publications related to my research in AI, bioinformatics, and protein analysis.
+  papers:
+  - title: PDeepPP: A Comprehensive Protein Language Model Hub
     link: https://huggingface.co/fondress/PDeepPP
-    tagline: A general language model for peptide identification.
+    authors: Yuhuan Liu, Haitian Zhong, Jixiu Zhai, Xueying Wang, Tianchi Lu
+    conference: Hugging Face, 2025
 
-  - title: PhosF3C
+  - title: PhosF3C: A Feature Fusion Architecture with Fine-Tuned Protein Language Model and Conformer for Prediction of General Phosphorylation Sites
     link: https://www.biorxiv.org/content/10.1101/2024.12.25.630296v1
-    tagline: A feature fusion architecture for phosphorylation site prediction.
+    authors: Yuhuan Liu, Haitian Zhong, Jixiu Zhai, Xueying Wang, Tianchi Lu
+    conference: bioRxiv, 2024
 
-  - title: SCMPPI
+  - title: SCMPPI: Supervised Contrastive Multimodal Framework for Predicting Protein-Protein Interactions
     link: https://arxiv.org/abs/2504.02698
-    tagline: A supervised contrastive multimodal framework for predicting protein-protein interactions.
+    authors: Shengrui Xu, Tianchi Lu, Zikun Wang, Jixiu Zhai, Jingwan Wang
+    conference: arXiv, 2025
 
 skills:
   title: Skills & Proficiency

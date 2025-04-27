@@ -34,12 +34,15 @@
   <!-- 语言切换按钮结束 -->
 
   <div class="wrapper">
-    {% include sidebar.html %}
-
-    <div class="main-wrapper">
-        {{ content }}
-    </div>
+  {% if page.lang == 'zh' %}
+    {% include sidebar.html page_data=site.data.data_cn %}
+  {% else %}
+    {% include sidebar.html page_data=site.data.data_en %}
+  {% endif %}
+  <div class="main-wrapper">
+      {{ content }}
   </div>
+</div>
 
   {% include footer.html %}
 

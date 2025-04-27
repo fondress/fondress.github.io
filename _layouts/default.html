@@ -5,8 +5,26 @@
 {% include head.html %}
 
 <body>
-  <!-- 语言切换按钮开始 -->
-  <div style="text-align: right; margin: 1em 2em 0 0;">
+  <!-- 语言切换按钮样式和DOM -->
+  <style>
+  .lang-switch {
+    position: absolute; right: 2rem; top: 2rem; font-size: 1rem;
+  }
+  .lang-switch a {
+    padding: 0.3em 0.8em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #f5f5f5;
+    text-decoration: none;
+    color: #333;
+    margin-left: 0.5em;
+  }
+  .lang-switch a:hover {
+    background: #e0e0e0;
+  }
+  </style>
+
+  <div class="lang-switch">
     {% if page.url contains '/zh/' %}
       <a href="{{ '/' | relative_url }}">English</a>
     {% else %}
@@ -27,5 +45,4 @@
 
 {% include scripts.html %}
 </body>
-
 </html>

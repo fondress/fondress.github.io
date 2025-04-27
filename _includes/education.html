@@ -1,20 +1,25 @@
-<section class="education-section">
-  <h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-graduation-cap fa-stack-1x fa-inverse"></i>
-    </span>
-    Education
+{% assign education = site.data.data.education %}
+{% if education %}
+
+<div class="education-container container-block">
+  <h2 class="container-block-title">
+    {{ education.title }}
   </h2>
 
-  <div class="education-content">
-    <h3 class="degree">Bachelor of Science in Mathematics (Fundamental Theory Program)</h3>
-    <p class="university">Lanzhou University, School of Mathematics and Statistics</p>
-    <p class="time">2022 - Present</p>
-    <ul class="details">
-      <li>Research Focus: AI for Science, Deep Learning</li>
-      <li>GPA: 85.8 (Rank 14/122)</li>
-      <li>English Proficiency: CET-4 (557), CET-6 (462)</li>
+  {% for edu in education.info %}
+  <div class="education-item">
+    <h3 class="education-degree">{{ edu.degree }}</h3>
+    <p class="education-university">{{ edu.university }}</p>
+    <p class="education-time">{{ edu.time }}</p>
+    <ul class="education-details list-unstyled">
+      {% for detail in edu.details | split: "\n" %}
+      {% if detail != "" %}
+      <li>{{ detail | strip }}</li>
+      {% endif %}
+      {% endfor %}
     </ul>
   </div>
-</section>
+  {% endfor %}
+</div>
+
+{% endif %}

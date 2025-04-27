@@ -2,27 +2,17 @@
 layout: default
 ---
 
+{% assign page_data = site.data.data_en %}
 
-{% include career-profile.html %}
-
-{% unless site.data.data.sidebar.education %}
-
-{% include education.html %}
-
+{% include career-profile.html page_data=page_data %}
+{% unless page_data.sidebar.education %}
+{% include education.html page_data=page_data %}
 {% endunless %}
-
-{% include experiences.html %}
-
-{% include awards.html %}
-
-{% include certifications.html %}
-
-{% include projects.html %}
-
-{% include oss-contributions.html %}
-
-{% include publications.html %}
-
-{% include recommendations.html %}
-
-{% include skills.html %}
+{% include experiences.html page_data=page_data %}
+{% include awards.html page_data=page_data %}
+{% include certifications.html page_data=page_data %}
+{% include projects.html page_data=page_data %}
+{% include oss-contributions.html page_data=page_data %}
+{% include publications.html page_data=page_data %}
+{% include recommendations.html page_data=page_data %}
+{% include skills.html page_data=page_data %}

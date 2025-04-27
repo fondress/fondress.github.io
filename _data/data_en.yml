@@ -57,7 +57,7 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    I am a mathematics student specializing in AI for Science and deep learning research. I have undertaken multiple research projects focused on protein structure prediction, multimodal frameworks, and visual large language models. My academic and professional journey is driven by a passion for solving scientific challenges using AI.
+    I am a mathematics student specializing in AI for Science and deep learning research. I have undertaken multiple research projects focused on bioinformatics and visual large language models. My academic and professional journey is driven by a passion for solving scientific challenges using AI.
     You can [download this free resume/CV template here](https://drive.google.com/file/d/1MWy43pW4SGSKqA51KcyZqR7oa8_Krt-d/view).
     
 education:
@@ -101,7 +101,7 @@ awards:
 experiences:
   title: Research Experience
   info:
-  - role: Project Lead
+  - role: Principal contributor
     time: 2024 - 2025
     project: National Innovation and Entrepreneurship Project
     details: |
@@ -131,37 +131,25 @@ experiences:
       - Advisor: Professor Zhao Xuejing
       - Responsibilities: Data collection and processing, experiment design, and assisting with paper writing and revisions.
 
-certifications:
-  title: Certifications
-  list:
-  - name: Deep Learning Specialization
-    start: 2023
-    end: Ongoing
-    organization: Coursera
-    credentialid: DLSP-12345
-    credentialurl: https://coursera.org/
-    details: |
-      Completed courses on neural networks, CNNs, and sequence models.
-
 publications:
   title: Publications
   intro: |
     Below are selected publications related to my research in AI, bioinformatics, and protein analysis.
   papers:
   - title: A General Language Model for Peptide Identification
-    link: https://huggingface.co/fondress/PDeepPP
-    authors: Yuhuan Liu, Haitian Zhong, Jixiu Zhai, Xueying Wang, Tianchi Lu
-    conference: Hugging Face, 2025
+    link: https://arxiv.org/abs/2502.15610
+    authors: Jixiu Zhai, Tianchi Lu, Haitian Zhong, Ziyang Xu, Yuhuan Liu, Shengrui Xu, Jingwan Wang, Dan Huang
+    journal: Knowledge-based Systems,Under Review
 
   - title: PhosF3C:A Feature Fusion Architecture with Fine-Tuned Protein Language Model and Conformer for Prediction of General Phosphorylation Sites
     link: https://www.biorxiv.org/content/10.1101/2024.12.25.630296v1
     authors: Yuhuan Liu, Haitian Zhong, Jixiu Zhai, Xueying Wang, Tianchi Lu
-    conference: bioRxiv, 2024
+    conference: Briefings in Bioinformatics, Minor Revision
 
   - title: SCMPPI:Supervised Contrastive Multimodal Framework for Predicting Protein-Protein Interactions
     link: https://arxiv.org/abs/2504.02698
     authors: Shengrui Xu, Tianchi Lu, Zikun Wang, Jixiu Zhai, Jingwan Wang
-    conference: arXiv, 2025
+    conference: NureoIPS, Sumitting
 
 skills:
   title: Skills & Proficiency

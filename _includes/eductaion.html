@@ -1,0 +1,33 @@
+{% assign education = site.data.data.education %}
+{% if education and education.info %}
+
+<section class="section education-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-graduation-cap fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ education.title }}
+  </h2>
+
+  <div class="timeline">
+    {% for edu in education.info %}
+    <div class="timeline-item">
+      <h3 class="timeline-title">{{ edu.degree }}</h3>
+      <h4 class="timeline-subtitle">{{ edu.university }}</h4>
+      <span class="timeline-time">{{ edu.time }}</span>
+      <ul class="timeline-details">
+        {% for detail in edu.details | split: "\n" %}
+        {% if detail != "" %}
+        <li>{{ detail | strip }}</li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </div>
+
+</section><!--//section-->
+
+{% endif %}

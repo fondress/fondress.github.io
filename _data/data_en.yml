@@ -71,32 +71,25 @@ education:
       - GPA: 85.8 (Rank 14/122)
       - English Proficiency: CET-4 (557), CET-6 (462)
 
-awards:
-  title: Awards
-  info:
-  - name: National Scholarship
-    year: 2023 - 2024
-    details: Rank 3/50
+publications:
+  title: Publications
+  intro: |
+    Below are selected publications related to my research in AI, bioinformatics, and protein analysis.
+  papers:
+  - title: A General Language Model for Peptide Identification
+    link: https://arxiv.org/abs/2502.15610
+    authors: Jixiu Zhai, Tianchi Lu, Haitian Zhong, Ziyang Xu, Yuhuan Liu, Shengrui Xu, Jingwan Wang, Dan Huang
+    journal: "Knowledge-based Systems,Under Review"
 
-  - name: Mathematics and Statistics Peach Blossom Scholarship
-    year: 2023 - 2024
-    details: Second Prize
+  - title: PhosF3C:A Feature Fusion Architecture with Fine-Tuned Protein Language Model and Conformer for Prediction of General Phosphorylation Sites
+    link: https://www.biorxiv.org/content/10.1101/2024.12.25.630296v1
+    authors: Yuhuan Liu, Haitian Zhong, Jixiu Zhai, Xueying Wang, Tianchi Lu
+    conference: Briefings in Bioinformatics, Minor Revision
 
-  - name: Lanzhou University Learning Model
-    year: 2023 - 2024
-    details: Recognized for academic excellence.
-
-  - name: National Undergraduate Mathematics Contest
-    year: 2023
-    details: Gansu Province Second Prize
-
-  - name: National Undergraduate Mathematical Modeling Contest
-    year: 2024
-    details: Gansu Province First Prize
-
-  - name: “Challenge Cup” Startup Plan Competition (Jilin)
-    year: 2024
-    details: Silver Award
+  - title: SCMPPI:Supervised Contrastive Multimodal Framework for Predicting Protein-Protein Interactions
+    link: https://arxiv.org/abs/2504.02698
+    authors: Shengrui Xu, Tianchi Lu, Zikun Wang, Jixiu Zhai, Jingwan Wang
+    conference: NureoIPS, Sumitting
 
 experiences:
   title: Research Experience
@@ -131,25 +124,34 @@ experiences:
       - Advisor: Professor Zhao Xuejing
       - Responsibilities: Data collection and processing, experiment design, and assisting with paper writing and revisions.
 
-publications:
-  title: Publications
-  intro: |
-    Below are selected publications related to my research in AI, bioinformatics, and protein analysis.
-  papers:
-  - title: A General Language Model for Peptide Identification
-    link: https://arxiv.org/abs/2502.15610
-    authors: Jixiu Zhai, Tianchi Lu, Haitian Zhong, Ziyang Xu, Yuhuan Liu, Shengrui Xu, Jingwan Wang, Dan Huang
-    journal: Knowledge-based Systems,Under Review
+awards:
+  title: Awards
+  info:
+  - name: National Scholarship
+    year: 2023 - 2024
+    details: Rank 3/50
 
-  - title: PhosF3C:A Feature Fusion Architecture with Fine-Tuned Protein Language Model and Conformer for Prediction of General Phosphorylation Sites
-    link: https://www.biorxiv.org/content/10.1101/2024.12.25.630296v1
-    authors: Yuhuan Liu, Haitian Zhong, Jixiu Zhai, Xueying Wang, Tianchi Lu
-    conference: Briefings in Bioinformatics, Minor Revision
+  - name: Mathematics and Statistics Peach Blossom Scholarship
+    year: 2023 - 2024
+    details: Second Prize
 
-  - title: SCMPPI:Supervised Contrastive Multimodal Framework for Predicting Protein-Protein Interactions
-    link: https://arxiv.org/abs/2504.02698
-    authors: Shengrui Xu, Tianchi Lu, Zikun Wang, Jixiu Zhai, Jingwan Wang
-    conference: NureoIPS, Sumitting
+  - name: Lanzhou University Learning Model
+    year: 2023 - 2024
+    details: Recognized for academic excellence.
+
+  - name: National Undergraduate Mathematics Contest
+    year: 2023
+    details: Gansu Province Second Prize
+
+  - name: National Undergraduate Mathematical Modeling Contest
+    year: 2024
+    details: Gansu Province First Prize
+
+  - name: “Challenge Cup” Startup Plan Competition (Jilin)
+    year: 2024
+    details: Silver Award
+
+
 
 skills:
   title: Skills & Proficiency

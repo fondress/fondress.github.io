@@ -76,7 +76,7 @@ publications:
   - title: A General Language Model for Peptide Identification
     link: https://arxiv.org/abs/2502.15610
     authors: Jixiu Zhai, Tianchi Lu, Haitian Zhong, Ziyang Xu, Yuhuan Liu, Shengrui Xu, Jingwan Wang, Dan Huang
-    journal: Knowledge-based Systems, Major Revision
+    conference: Knowledge-based Systems, Major Revision
 
   - title: PhosF3C:A Feature Fusion Architecture with Fine-Tuned Protein Language Model and Conformer for Prediction of General Phosphorylation Sites
     link: https://www.biorxiv.org/content/10.1101/2024.12.25.630296v1

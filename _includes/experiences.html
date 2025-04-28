@@ -68,10 +68,8 @@
   <div class="meta">
     {% if experience.subject %}
       <div class="subject-row">
-        {% if experience.subject_url %}
-          {{ "[#{experience.subject}](#{experience.subject_url})" | markdownify }}
-        {% else %}
-          {{ experience.subject }}
+        {% if experience.subject %}
+          <div class="subject-row">{{ experience.subject | markdownify }}</div>
         {% endif %}
       </div>
     {% endif %}

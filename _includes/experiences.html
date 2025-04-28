@@ -67,7 +67,13 @@
 <div class="item">
   <div class="meta">
     {% if experience.subject %}
-      <div class="subject-row">{{ experience.subject }}</div>
+      <div class="subject-row">
+        {% if experience.subject_url %}
+          <a href="{{ experience.subject_url }}" target="_blank" rel="noopener">{{ experience.subject }}</a>
+        {% else %}
+          {{ experience.subject }}
+        {% endif %}
+      </div>
     {% endif %}
     <div class="info-row">
       <div class="role">{{ experience.role }}</div>

@@ -7,7 +7,6 @@ sidebar:
     email: 电子邮件
     phone: 电话
     citizenship: 国籍
-    timezone: 时区
     website: 网站
     github: GitHub
     pdf: 简历PDF
@@ -22,8 +21,8 @@ sidebar:
   # Sidebar links
   email: 320220948121@lzu.edu.cn
   phone: 15105187418
-  timezone: 
   citizenship: 中国-江苏-南京
+  party_member: 预备党员
   github: https://github.com/fondress
   huggingface: https://huggingface.co/fondress
   pdf: https://drive.google.com/file/d/1MWy43pW4SGSKqA51KcyZqR7oa8_Krt-d/view

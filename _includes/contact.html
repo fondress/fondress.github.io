@@ -3,37 +3,37 @@
 
     {% if sidebar.email %}
     <li class="email"><i class="fas fa-envelope"></i>
-      <a href="mailto:{{ sidebar.email }}">{{ sidebar.email }}</a>
+      {{ sidebar.email }}
     </li>
     {% endif %}
 
     {% if sidebar.phone %}
     <li class="phone"><i class="fas fa-phone"></i>
-      <a href="tel:{{ sidebar.phone }}">{{ sidebar.phone }}</a>
+      {{ sidebar.phone }}
     </li>
     {% endif %}
 
     {% if sidebar.citizenship %}
-    <li class="phone"><i class="fas fa-passport"></i>
-      <a href="">{{ sidebar.citizenship }}</a>
+    <li class="citizenship"><i class="fas fa-passport"></i>
+      {{ sidebar.citizenship }}
     </li>
     {% endif %}
 
     {% if sidebar.party_member %}
     <li class="party_member"><i class="fas fa-user-check"></i>
-      <a href="">{{ sidebar.party_member }}</a>
+      {{ sidebar.party_member }}
     </li>
     {% endif %}
     
     {% if sidebar.github %}
     <li class="github"><i class="fab fa-github"></i>
-      <a href="https://github.com/{{ sidebar.github }}" target="_blank">{{ sidebar.github }}</a>
+      <a href="{{ sidebar.github }}" target="_blank">{{ sidebar.github | replace: "https://github.com/", "" }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.huggingface %}
     <li class="huggingface"><i class="fa-brands fa-hugging-face"></i>
-      <a href="https://huggingface.co/{{ sidebar.huggingface }}" target="_blank">{{ sidebar.huggingface }}</a>
+      <a href="{{ sidebar.huggingface }}" target="_blank">{{ sidebar.huggingface | replace: "https://huggingface.co/", "" }}</a>
     </li>
     {% endif %}
     

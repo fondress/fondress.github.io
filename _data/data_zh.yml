@@ -121,7 +121,7 @@ experiences:
   - role: 项目负责人
     time: 2024 - 2025
     project: 国家级大学生创新创业训练计划
-    subject: 基于深度学习的蛋白质序列生物学特征预测
+    subject: [基于深度学习的蛋白质序列生物学特征预测](https://www.overleaf.com/read/wdgqhrkqkdkg#ea25d2)
     details: |
       - 指导老师：王业娟教授
       - 项目内容：提出融合CNN与Transformer模块、改进预训练和加权损失函数的蛋白质特征预测模型，实现

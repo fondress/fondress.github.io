@@ -26,6 +26,10 @@
 
   {% include language.html %}
   {% include interests.html %}
+  
+  <!-- New sections -->
+  {% include club-experiences.html page_data=include.page_data %}
+  {% include positions.html page_data=include.page_data %}
 
   {% if sidebar.about %}
     {% include about.html %}

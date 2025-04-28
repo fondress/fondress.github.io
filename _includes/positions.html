@@ -1,0 +1,20 @@
+{% assign positions = include.page_data.sidebar.positions %}
+{% if positions %}
+<div class="positions-container container-block">
+
+  <h2 class="container-block-title">
+    {{ include.page_data.sidebar.labels.positions_title | default: positions.title }}
+  </h2>
+
+  <ul class="list-unstyled positions-list">
+    {% for position in positions.info %}
+    <li>
+      {{ position.title }}
+      {% if position.organization %}<span class="position-org">({{ position.organization }})</span>{% endif %}
+      {% if position.time %}<div class="position-time">{{ position.time }}</div>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+
+</div><!--//positions-->
+{% endif %}

@@ -69,7 +69,7 @@
     {% if experience.subject %}
       <div class="subject-row">
         {% if experience.subject_url %}
-          <a href="{{ experience.subject_url }}" target="_blank" rel="noopener">{{ experience.subject }}</a>
+          {{ "[#{experience.subject}](#{experience.subject_url})" | markdownify }}
         {% else %}
           {{ experience.subject }}
         {% endif %}

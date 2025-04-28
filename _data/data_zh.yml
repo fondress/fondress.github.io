@@ -15,7 +15,7 @@ sidebar:
     languages_title: 语言能力
     interests_title: 兴趣爱好
   # Profile information
-  name: 翟霁修 (Jixiu Zhai)
+  name: 翟霁修
   tagline: 数学专业本科生 & 科学智能研究者
   avatar: PHOTO.jpg
 
@@ -24,20 +24,7 @@ sidebar:
   phone: 15105187418
   timezone: 
   citizenship: 中国-江苏-南京
-  website: 
-  linkedin: 
   github: https://github.com/fondress
-  telegram: 
-  gitlab: 
-  bitbucket: 
-  bluesky: 
-  twitter: 
-  stack-overflow: 
-  codewars: 
-  goodreads: 
-  mastodon: 
-  hackerrank: 
-  leetcode: 
   huggingface: https://huggingface.co/fondress
   pdf: https://drive.google.com/file/d/1MWy43pW4SGSKqA51KcyZqR7oa8_Krt-d/view
 

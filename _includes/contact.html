@@ -19,36 +19,18 @@
     </li>
     {% endif %}
 
-    {% if sidebar.timezone %}
-    <li class="timezone"><i class="fas fa-clock"></i>
-      <a href="https://worldtimeapi.org/timezone/{{ sidebar.timezone }}" target="_blank">{{ sidebar.timezone }}</a>
-    </li>
-    {% endif %}
-
-    {% if sidebar.telegram %}
-    <li class="telegram"><i class="fab fa-telegram"></i>
-      <a href="https://t.me/{{ sidebar.telegram }}" target="_blank">{{ sidebar.telegram }}</a>
-    </li>
-    {% endif %}
-
-    {% if sidebar.website %}
-    <li class="website"><i class="fas fa-globe-americas"></i>
-      <a href="{{ sidebar.website }}" target="_blank">{{ sidebar.website }}</a>
-    </li>
-    {% endif %}
-
-    {% if sidebar.linkedin %}
-    <li class="linkedin"><i class="fab fa-linkedin"></i>
-      <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank">{{ sidebar.linkedin }}</a>
-    </li>
-    {% endif %}
-
     {% if sidebar.github %}
     <li class="github"><i class="fab fa-github"></i>
       <a href="https://github.com/{{ sidebar.github }}" target="_blank">{{ sidebar.github }}</a>
     </li>
     {% endif %}
 
+    {% if sidebar.huggingface %}
+    <li class="huggingface"><i class="fa-brands fa-hugging-face"></i>
+      <a href="https://huggingface.co/{{ sidebar.huggingface }}" target="_blank">{{ sidebar.huggingface }}</a>
+    </li>
+    {% endif %}
+    
     {% if sidebar.pdf %}
     <li class="pdf"><i class="fas fa-file-pdf"></i>
       <a href="{{ sidebar.pdf }}" target="_blank">{{ sidebar.labels.pdf | default: "Resume PDF" }}</a>

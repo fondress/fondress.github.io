@@ -16,7 +16,9 @@
       <span class="fa-li"><i class="fas fa-award"></i></span>
       <strong>{{ award.name }}</strong> ({{ award.year }})
       {% if award.details %}
-      <p>{{ award.details }}</p>
+        <p>{{ award.details }}</p>
+      {% else %}
+        <p>&nbsp;</p>
       {% endif %}
     </li>
     {% endfor %}

@@ -68,6 +68,26 @@ education:
       - GPA: 85.8（专业14/122）
       - 英语水平：CET-4（557），CET-6（462）
 
+publications:
+  title: 论文发表
+  intro: |
+    以下为本人在人工智能、生物信息学、蛋白质分析等领域的代表性成果：
+  papers:
+  - title: A General Language Model for Peptide Identification
+    link: https://arxiv.org/abs/2502.15610
+    authors: Jixiu Zhai, Tianchi Lu, Haitian Zhong, Ziyang Xu, Yuhuan Liu, Shengrui Xu, Jingwan Wang, Dan Huang
+    journal: Knowledge-based Systems, Major Revision
+
+  - title: PhosF3C:A Feature Fusion Architecture with Fine-Tuned Protein Language Model and Conformer for Prediction of General Phosphorylation Sites
+    link: https://www.biorxiv.org/content/10.1101/2024.12.25.630296v1
+    authors: Yuhuan Liu, Haitian Zhong, Jixiu Zhai, Xueying Wang, Tianchi Lu
+    conference: Briefings in Bioinformatics, Minor Revision
+
+  - title: SCMPPI:Supervised Contrastive Multimodal Framework for Predicting Protein-Protein Interactions
+    link: https://arxiv.org/abs/2504.02698
+    authors: Shengrui Xu, Tianchi Lu, Zikun Wang, Jixiu Zhai, Jingwan Wang
+    conference: NureoIPS, Sumitting
+    
 awards:
   title: 奖项荣誉
   info:
@@ -129,26 +149,6 @@ experiences:
     details: |
       - 指导老师：赵学靖教授
       - 主要职责: 指导组员进行数据收集、处理,实验设计,并帮助撰写和修改论文
-
-publications:
-  title: 论文发表
-  intro: |
-    以下为本人在人工智能、生物信息学、蛋白质分析等领域的代表性成果：
-  papers:
-  - title: A General Language Model for Peptide Identification
-    link: https://arxiv.org/abs/2502.15610
-    authors: Jixiu Zhai, Tianchi Lu, Haitian Zhong, Ziyang Xu, Yuhuan Liu, Shengrui Xu, Jingwan Wang, Dan Huang
-    journal: "Knowledge-based Systems,Under Review"
-
-  - title: PhosF3C:A Feature Fusion Architecture with Fine-Tuned Protein Language Model and Conformer for Prediction of General Phosphorylation Sites
-    link: https://www.biorxiv.org/content/10.1101/2024.12.25.630296v1
-    authors: Yuhuan Liu, Haitian Zhong, Jixiu Zhai, Xueying Wang, Tianchi Lu
-    conference: Briefings in Bioinformatics, Minor Revision
-
-  - title: SCMPPI:Supervised Contrastive Multimodal Framework for Predicting Protein-Protein Interactions
-    link: https://arxiv.org/abs/2504.02698
-    authors: Shengrui Xu, Tianchi Lu, Zikun Wang, Jixiu Zhai, Jingwan Wang
-    conference: NureoIPS, Sumitting
 
 skills:
   title: 技能与能力

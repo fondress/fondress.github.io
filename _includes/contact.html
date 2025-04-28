@@ -27,13 +27,13 @@
     
     {% if sidebar.github %}
     <li class="github"><i class="fab fa-github"></i>
-      <a href="{{ sidebar.github }}" target="_blank">{{ sidebar.github | replace: "https://github.com/", "" }}</a>
+      <a href="{{ sidebar.github }}" target="_blank">{{ sidebar.github }}</a>
     </li>
     {% endif %}
-
+    
     {% if sidebar.huggingface %}
     <li class="huggingface"><span>🤗</span>
-      <a href="{{ sidebar.huggingface }}" target="_blank">{{ sidebar.huggingface | replace: "https://huggingface.co/", "" }}</a>
+      <a href="{{ sidebar.huggingface }}" target="_blank">{{ sidebar.huggingface }}</a>
     </li>
     {% endif %}
     

@@ -16,3 +16,8 @@ $sidebar-order: 2;
 
 @import "skins/{{ site.theme_skin | default: 'blue' }}"; // skin
 @import "default"; // main partials
+
+.myname {
+  color: #77b8c9; // 你喜欢的颜色
+  font-weight: bold;
+}

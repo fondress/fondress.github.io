@@ -106,16 +106,61 @@ awards:
       details: 甘肃赛区二等奖
       category: 学习
 
+    - name: 全国大学生数学建模竞赛
+      year: 2024
+      details: 甘肃赛区特等奖
+      category: 学习
+
     - name: “挑战杯”创业计划竞赛
       year: 2024
       details: 吉林赛区银奖
-      category: 社会实践
+      category: 学习
 
-    - name: XXX体育比赛
-      year: 2024
-      details: XXX奖
+    - name: 南京市“市长杯”足球比赛
+      year: 2020
+      details: 第五名
       category: 体育
 
+    - name: 南京市“名校杯”篮球比赛
+      year: 2020
+      details: 季军
+      category: 体育
+
+    - name: 南京市“名校杯”篮球比赛
+      year: 2021
+      details: 冠军
+      category: 体育
+
+    - name: 兰州大学校运会男子4*100m接力
+      year: 2024
+      details: 银牌
+      category: 体育
+
+    - name: 兰州大学“三下乡”社会实践活动
+      year: 2023
+      details: 优秀学生
+      category: 社会实践
+
+    - name: 兰州大学“三下乡”社会实践活动
+      year: 2023
+      details: 优秀团队、优秀成果
+      category: 社会实践
+  
+    - name: 知行计划全国入围奖
+      year: 2023
+      details: 岳藏之风团队
+      category: 社会实践
+
+    - name: 兰州大学第四届青年志愿服务大赛创意赛道
+      year: 2023
+      details: 铜奖
+      category: 社会实践
+
+    - name: “圆梦工程”服务农村未成年人传承优秀传统文化志愿活动
+      year: 2023
+      details: 优秀团队
+      category: 社会实践
+  
 experiences:
   title: 科研经历
   info:

@@ -6,16 +6,12 @@
 <!-- 语言切换按钮样式和DOM -->
 <style>
 .lang-switch {
-  position: fixed;
-  right: 20px;
-  top: 20px;
-  font-size: 16px;
-  z-index: 1000;
-  background: rgba(255, 255, 255, 0.8);
-  padding: 5px 10px;
-  border-radius: 4px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
+   position: fixed;   /* 让按钮固定在页面上，始终可见 */
+   position: absolute;   /* 让按钮固定在页面上，始终可见 */
+   right: 60rem;       /* 距离右侧距离，单位建议用 rem 或 px */
+   top: 7rem;         /* 距离顶部 */
+   font-size: 1.5rem;
+   z-index: 1000;     /* 确保在主页内容之上 */
 .lang-switch a {
   padding: 0.3em 0.8em;
   border: 1px solid #ccc;

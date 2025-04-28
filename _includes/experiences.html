@@ -9,24 +9,23 @@
   margin-bottom: 2px;
 }
 .info-row {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 180px 1fr 120px; /* 你可以根据需要精确调整每列宽度 */
   align-items: center;
-  gap: 32px;
-  margin-bottom: 6px;
+  column-gap: 20px; /* 控制间距 */
+  margin-bottom: 8px;
 }
 .role {
-  flex: 1.1;
-  text-align: left;
+  grid-column: 1;
+  font-weight: bold;
 }
 .project {
-  flex: 2;
-  text-align: center;
+  grid-column: 2;
+  text-align: left;
   color: #607d8b;
-  word-break: break-all;
 }
 .time {
-  flex: 1;
+  grid-column: 3;
   text-align: right;
   color: #90a4ae;
 }

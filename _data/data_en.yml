@@ -7,6 +7,18 @@ sidebar:
   about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
   education: True # set to False if you want education in main section instead of in sidebar
 
+  labels:
+    email: Email
+    phone: Phone
+    citizenship: Citizenship
+    timezone: Timezone
+    website: Website
+    github: GitHub
+    pdf: Resume PDF
+    education_title: Education
+    languages_title: Languages
+    interests_title: Interests
+    
   # Profile information
   name: Jixiu Zhai
   tagline: Mathematics Student & AI Researcher

@@ -18,6 +18,8 @@ sidebar:
     education_title: Education
     languages_title: Languages
     interests_title: Interests
+    clubs_title: Club Experiences
+    positions_title: Positions Held
     
   # Profile information
   name: Jixiu Zhai
@@ -65,6 +67,30 @@ sidebar:
 
     - item: Mathematics
       link:
+      
+  # New club experiences section
+  clubs:
+    title: Club Experiences
+    info:
+    - name: Mathematics Association
+      role: Vice President
+      time: 2023 - Present
+      
+    - name: AI Research Club
+      role: Member
+      time: 2022 - Present
+  
+  # New positions held section
+  positions:
+    title: Positions Held
+    info:
+    - title: Class Representative
+      organization: School of Mathematics
+      time: 2022 - Present
+      
+    - title: Student Mentor
+      organization: Student Affairs Office
+      time: 2023 - Present
 
 career-profile:
   title: Career Profile
@@ -159,11 +185,9 @@ awards:
     year: 2024
     details: Gansu Province First Prize
 
-  - name: “Challenge Cup” Startup Plan Competition (Jilin)
+  - name: "Challenge Cup" Startup Plan Competition (Jilin)
     year: 2024
     details: Silver Award
-
-
 
 skills:
   title: Skills & Proficiency

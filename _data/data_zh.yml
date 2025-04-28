@@ -91,36 +91,37 @@ publications:
 awards:
   title: 奖项荣誉
   info:
-  - name: 国家奖学金
-    year: 2023 - 2024
-    details: 专业排名3/50
+    - name: 国家奖学金
+      year: 2023 - 2024
+      details: 专业排名3/50
+      category: 学习
 
-  - name: 数学与统计学院桃李奖学金
-    year: 2023 - 2024
-    details: 二等奖
+    - name: 兰州大学学习标兵
+      year: 2023 - 2024
+      details: 
+      category: 学习
 
-  - name: 兰州大学学习标兵
-    year: 2023 - 2024
-    details: 
-    
-  - name: 全国大学生数学竞赛
-    year: 2023
-    details: 甘肃赛区二等奖
+    - name: 全国大学生数学竞赛
+      year: 2023
+      details: 甘肃赛区二等奖
+      category: 学习
 
-  - name: 全国大学生数学建模竞赛
-    year: 2024
-    details: 甘肃赛区特等奖
+    - name: “挑战杯”创业计划竞赛
+      year: 2024
+      details: 吉林赛区银奖
+      category: 社会实践
 
-  - name: “挑战杯”创业计划竞赛
-    year: 2024
-    details: 吉林赛区银奖
+    - name: XXX体育比赛
+      year: 2024
+      details: XXX奖
+      category: 体育
 
 experiences:
   title: 科研经历
   info:
   - role: 项目负责人
     time: 2024 - 2025
-    project: 国家级大学生创新创业训练计划
+    project: 国家级创新创业训练计划
     subject: 基于深度学习的蛋白质序列生物学特征预测
     details: |
       - 指导老师：王业娟教授
@@ -129,7 +130,7 @@ experiences:
 
   - role: 项目负责人
     time: 2025 - 2026
-    project: 国家级大学生创新创业训练计划
+    project: 国家级创新创业训练计划
     subject: 基于SMILES预训练深度学习框架探索蛋白质-有机分子亲和力
     details: |
       - 指导老师：王业娟教授

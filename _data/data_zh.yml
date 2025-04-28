@@ -3,6 +3,17 @@ sidebar:
   about: True
   education: True
 
+  labels:
+    email: 电子邮件
+    phone: 电话
+    citizenship: 国籍
+    timezone: 时区
+    website: 网站
+    github: GitHub
+    pdf: 简历PDF
+    education_title: 教育经历
+    languages_title: 语言能力
+    interests_title: 兴趣爱好
   # Profile information
   name: 翟霁修 (Jixiu Zhai)
   tagline: 数学专业本科生 & 科学智能研究者

@@ -5,17 +5,17 @@ sidebar:
 
   # Profile information
   name: 翟霁修 (Jixiu Zhai)
-  tagline: 数学专业本科生 & 人工智能研究者
+  tagline: 数学专业本科生 & 科学智能研究者
   avatar: PHOTO.jpg
 
   # Sidebar links
   email: 320220948121@lzu.edu.cn
-  phone: 19393105540
-  timezone: Asia/Shanghai
-  citizenship: 中国
-  website: https://github.com/fondress
+  phone: 15105187418
+  timezone: 
+  citizenship: 中国-江苏-南京
+  website: 
   linkedin: 
-  github: fondress
+  github: https://github.com/fondress
   telegram: 
   gitlab: 
   bitbucket: 
@@ -27,6 +27,7 @@ sidebar:
   mastodon: 
   hackerrank: 
   leetcode: 
+  huggingface: https://huggingface.co/fondress
   pdf: https://drive.google.com/file/d/1MWy43pW4SGSKqA51KcyZqR7oa8_Krt-d/view
 
   languages:
@@ -101,16 +102,18 @@ experiences:
     time: 2024 - 2025
     project: 国家级大学生创新创业训练计划
     details: |
-      - 课题：基于深度学习的蛋白质生物学特性预测
-      - 内容亮点：提出融合CNN与Transformer模块、改进预训练和加权损失函数的蛋白质特征预测模型
+      - 指导老师：王业娟教授
+      - 课题：基于深度学习的蛋白质序列生物学特征预测
+      - 内容亮点：提出融合CNN与Transformer模块、改进预训练和加权损失函数的蛋白质特征预测模型，实现
       - 主要职责：建模、数据收集、实验设计、可视化、论文撰写与答辩
 
   - role: 项目负责人
     time: 2025 - 2026
     project: 国家级大学生创新创业训练计划
     details: |
-      - 课题：基于SMILES预训练深度学习框架的蛋白-小分子结合能力探索
-      - 主要职责：团队指导、数据对齐、实验设计、论文修改
+      - 指导老师：王业娟教授
+      - 课题：基于SMILES预训练深度学习框架探索蛋白质-有机分子亲和力
+      - 主要职责：指导组员进行数据对齐,实验设计,并帮助撰写和修改论文
 
   - role: 组员
     time: 2024 - 2025
@@ -118,46 +121,34 @@ experiences:
     details: |
       - 指导老师：黄玉梅教授
       - 研究方向：提升视觉大语言模型（LVLMs）知识编辑效率与质量
-      - 主要职责：基于EasyEdit的知识编辑实现
+      - 主要职责: 初步了解视觉大语言模型,复现 Easyedit 上的大模型知识编辑方法
 
   - role: 核心成员
     time: 2025 - 2026
     project: 蛋白-RNA结合能力预测
     details: |
-      - 指导老师：赵雪静教授
-      - 主要职责：数据收集处理、实验设计、协助论文撰写修改
-
-certifications:
-  title: 证书
-  list:
-  - name: 深度学习专项课程
-    start: 2023
-    end: 持续中
-    organization: Coursera
-    credentialid: DLSP-12345
-    credentialurl: https://coursera.org/
-    details: |
-      已完成神经网络、卷积神经网络、序列模型等课程学习。
+      - 指导老师：赵学靖教授
+      - 主要职责: 指导组员进行数据收集、处理,实验设计,并帮助撰写和修改论文
 
 publications:
   title: 论文发表
   intro: |
-    以下为本人在人工智能、生物信息学、蛋白质分析等领域的部分代表性成果：
+    以下为本人在人工智能、生物信息学、蛋白质分析等领域的代表性成果：
   papers:
-  - title: 用于肽段识别的通用语言模型
-    link: https://huggingface.co/fondress/PDeepPP
-    authors: Yuhuan Liu, Haitian Zhong, Jixiu Zhai, Xueying Wang, Tianchi Lu
-    conference: Hugging Face, 2025
+  - title: A General Language Model for Peptide Identification
+    link: https://arxiv.org/abs/2502.15610
+    authors: Jixiu Zhai, Tianchi Lu, Haitian Zhong, Ziyang Xu, Yuhuan Liu, Shengrui Xu, Jingwan Wang, Dan Huang
+    journal: "Knowledge-based Systems,Under Review"
 
-  - title: PhosF3C：融合特征的蛋白质磷酸化位点预测架构
+  - title: PhosF3C:A Feature Fusion Architecture with Fine-Tuned Protein Language Model and Conformer for Prediction of General Phosphorylation Sites
     link: https://www.biorxiv.org/content/10.1101/2024.12.25.630296v1
     authors: Yuhuan Liu, Haitian Zhong, Jixiu Zhai, Xueying Wang, Tianchi Lu
-    conference: bioRxiv, 2024
+    conference: Briefings in Bioinformatics, Minor Revision
 
-  - title: SCMPPI：监督对比多模态蛋白互作预测框架
+  - title: SCMPPI:Supervised Contrastive Multimodal Framework for Predicting Protein-Protein Interactions
     link: https://arxiv.org/abs/2504.02698
     authors: Shengrui Xu, Tianchi Lu, Zikun Wang, Jixiu Zhai, Jingwan Wang
-    conference: arXiv, 2025
+    conference: NureoIPS, Sumitting
 
 skills:
   title: 技能与能力

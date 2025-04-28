@@ -119,8 +119,8 @@ experiences:
   title: 科研经历
   info:
   - role: 项目负责人
-    time: 2024 - 2025
     project: 国家级大学生创新创业训练计划
+    time: 2024 - 2025
     details: |
       - 指导老师：王业娟教授
       - 课题：基于深度学习的蛋白质序列生物学特征预测

@@ -81,12 +81,12 @@ publications:
   - title: PhosF3C:A Feature Fusion Architecture with Fine-Tuned Protein Language Model and Conformer for Prediction of General Phosphorylation Sites
     link: https://www.biorxiv.org/content/10.1101/2024.12.25.630296v1
     authors: Yuhuan Liu, Haitian Zhong, <span class=myname>Jixiu Zhai</span>, Xueying Wang, Tianchi Lu
-    conference: Briefings in Bioinformatics, Minor Revision
+    conference: Briefings in Bioinformatics, [Minor Revision](https://drive.google.com/file/d/1xCLlSPINyLAAiyQxW76foABNIbB6AVw9/view?usp=drive_link)
 
   - title: SCMPPI:Supervised Contrastive Multimodal Framework for Predicting Protein-Protein Interactions
     link: https://arxiv.org/abs/2504.02698
     authors: Shengrui Xu, Tianchi Lu, Zikun Wang, <span class=myname>Jixiu Zhai</span>, Jingwan Wang
-    conference: NureoIPS, Sumitting
+    conference: NureoIPS, [Sumitting](https://drive.google.com/file/d/1wZDFE6VkZ7JLjLhC2lwTWe8XlMwdxWSB/view?usp=drive_link)
     
 awards:
   title: 奖项荣誉
@@ -121,7 +121,7 @@ experiences:
   - role: 项目负责人
     time: 2024 - 2025
     project: 国家级大学生创新创业训练计划
-    subject: [基于深度学习的蛋白质序列生物学特征预测](https://www.overleaf.com/read/wdgqhrkqkdkg#ea25d2)
+    subject: 基于深度学习的蛋白质序列生物学特征预测
     details: |
       - 指导老师：王业娟教授
       - 项目内容：提出融合CNN与Transformer模块、改进预训练和加权损失函数的蛋白质特征预测模型，实现

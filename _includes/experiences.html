@@ -9,23 +9,25 @@
   margin-bottom: 2px;
 }
 .info-row {
-  display: grid;
-  grid-template-columns: 180px 1fr 150px; /* 你可以根据需要精确调整每列宽度 */
-  align-items: center;
-  column-gap: 20px; /* 控制间距 */
-  margin-bottom: 8px;
+  position: relative;
+  min-height: 1.5em;
 }
 .role {
-  grid-column: 1;
-  font-weight: bold;
+  position: absolute;
+  left: 0;
+  width: 180px;
 }
 .project {
-  grid-column: 2;
-  color: #607d8b;
+  position: absolute;
+  left: 200px;
+  right: 120px;
+  text-align: left;
 }
 .time {
-  grid-column: 3;
-  color: #79a6bd;
+  position: absolute;
+  right: 0;
+  width: 120px;
+  text-align: right;
 }
 @media (max-width: 650px) {
   .info-row {

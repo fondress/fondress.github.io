@@ -4,7 +4,7 @@
   {% if sidebar.education %}
   <div class="education-container container-block">
     <h2 class="container-block-title">
-      {{ education.title }}
+      {{ sidebar.labels.education_title | default: education.title }}
     </h2>
     {% for graduation in education.info %}
     <div class="item">

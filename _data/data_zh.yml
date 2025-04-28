@@ -13,6 +13,9 @@ sidebar:
     education_title: 教育经历
     languages_title: 语言能力
     interests_title: 兴趣爱好
+    clubs_title: 社团经历
+    positions_title: 担任职位
+    
   # Profile information
   name: 翟霁修
   tagline: 数学专业本科生 & 科学智能研究者
@@ -47,6 +50,30 @@ sidebar:
 
     - item: 数学
       link:
+      
+  # 新增社团经历部分
+  clubs:
+    title: 社团经历
+    info:
+    - name: 数学协会
+      role: 副会长
+      time: 2023 - 至今
+      
+    - name: 人工智能研究社
+      role: 成员
+      time: 2022 - 至今
+  
+  # 新增担任职位部分
+  positions:
+    title: 担任职位
+    info:
+    - title: 班级代表
+      organization: 数学与统计学院
+      time: 2022 - 至今
+      
+    - title: 学生导师
+      organization: 学生事务办公室
+      time: 2023 - 至今
 
 career-profile:
   title: 个人简介
@@ -108,22 +135,22 @@ awards:
       details: 甘肃赛区特等奖
       category: 学习
 
-    - name: “挑战杯”创业计划竞赛
+    - name: "挑战杯"创业计划竞赛
       year: 2024
       details: 吉林赛区银奖
       category: 学习
 
-    - name: 南京市“市长杯”足球比赛
+    - name: 南京市"市长杯"足球比赛
       year: 2020
       details: 第五名
       category: 体育
 
-    - name: 南京市“名校杯”篮球比赛
+    - name: 南京市"名校杯"篮球比赛
       year: 2020
       details: 季军
       category: 体育
 
-    - name: 南京市“名校杯”篮球比赛
+    - name: 南京市"名校杯"篮球比赛
       year: 2021
       details: 冠军
       category: 体育
@@ -133,12 +160,12 @@ awards:
       details: 银牌
       category: 体育
 
-    - name: 兰州大学“三下乡”社会实践活动
+    - name: 兰州大学"三下乡"社会实践活动
       year: 2023
       details: 优秀学生
       category: 社会实践
 
-    - name: 兰州大学“三下乡”社会实践活动
+    - name: 兰州大学"三下乡"社会实践活动
       year: 2023
       details: 优秀团队、优秀成果
       category: 社会实践
@@ -153,7 +180,7 @@ awards:
       details: 铜奖
       category: 社会实践
 
-    - name: “圆梦工程”服务农村未成年人传承优秀传统文化志愿活动
+    - name: "圆梦工程"服务农村未成年人传承优秀传统文化志愿活动
       year: 2023
       details: 优秀团队
       category: 社会实践

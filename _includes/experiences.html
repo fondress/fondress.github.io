@@ -1,43 +1,53 @@
 {% assign experiences = include.page_data.experiences %}
 {% if experiences %}
 
-<!-- 可放在顶部，控制布局和样式 -->
 <style>
-.subject-row {
+.experiences-section .subject-row {
   font-weight: bold;
   font-size: 1.1em;
   margin-bottom: 2px;
 }
+
 .experiences-section .info-row {
   position: relative;
   min-height: 1.5em;
 }
-.role {
+
+.experiences-section .role {
   position: absolute;
   left: 0;
   width: 180px;
 }
-.project {
+
+.experiences-section .project {
   position: absolute;
   left: 200px;
   right: 120px;
   text-align: left;
 }
-.time {
+
+.experiences-section .time {
   position: absolute;
   right: 0;
   width: 120px;
   text-align: right;
 }
+
 @media (max-width: 650px) {
-  .info-row {
+  .experiences-section .info-row {
     flex-direction: column;
     align-items: flex-start;
     gap: 2px;
   }
-  .project, .role, .time {
+  .experiences-section .project, 
+  .experiences-section .role, 
+  .experiences-section .time {
     text-align: left;
     padding: 0;
+    position: static;
+    width: auto;
+    left: auto;
+    right: auto;
   }
 }
 </style>

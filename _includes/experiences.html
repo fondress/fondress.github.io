@@ -1,43 +1,42 @@
 {% assign experiences = include.page_data.experiences %}
 {% if experiences %}
 
-<!-- 控制三项间距的CSS样式，建议加在文件最顶部 -->
+<!-- 可放在顶部，控制布局和样式 -->
 <style>
-.upper-row {
+.subject-row {
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 2px;
+}
+.info-row {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 20px; /* 控制三项之间的距离，可根据需要调整 */
+  gap: 32px;
   margin-bottom: 6px;
 }
-.job-title {
-  flex: 1.2;
+.role {
+  flex: 1.1;
   text-align: left;
-  font-weight: bold;
-  font-size: 1.08em;
 }
 .project {
   flex: 2;
   text-align: center;
-  font-size: 1.08em;
   color: #607d8b;
-  padding: 0 10px; /* 可选，左右留点空白 */
-  word-break: break-all; /* 防止内容过长溢出 */
+  word-break: break-all;
 }
 .time {
   flex: 1;
   text-align: right;
   color: #90a4ae;
-  font-size: 1.04em;
-  padding-left: 10px;
 }
 @media (max-width: 650px) {
-  .upper-row {
+  .info-row {
     flex-direction: column;
     align-items: flex-start;
     gap: 2px;
   }
-  .project, .job-title, .time {
+  .project, .role, .time {
     text-align: left;
     padding: 0;
   }
@@ -58,8 +57,11 @@
 
 <div class="item">
   <div class="meta">
-    <div class="upper-row">
-      <div class="job-title">{{ experience.role }}</div>
+    {% if experience.subject %}
+      <div class="subject-row">{{ experience.subject }}</div>
+    {% endif %}
+    <div class="info-row">
+      <div class="role">{{ experience.role }}</div>
       <div class="project">{{ experience.project }}</div>
       <div class="time">{{ experience.time }}</div>
     </div>

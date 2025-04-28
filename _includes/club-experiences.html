@@ -1,0 +1,20 @@
+{% assign clubs = include.page_data.sidebar.clubs %}
+{% if clubs %}
+<div class="clubs-container container-block">
+
+  <h2 class="container-block-title">
+    {{ include.page_data.sidebar.labels.clubs_title | default: clubs.title }}
+  </h2>
+
+  <ul class="list-unstyled clubs-list">
+    {% for club in clubs.info %}
+    <li>
+      {{ club.name }}
+      {% if club.role %}<span class="club-role">({{ club.role }})</span>{% endif %}
+      {% if club.time %}<div class="club-time">{{ club.time }}</div>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+
+</div><!--//clubs-->
+{% endif %}

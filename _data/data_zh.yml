@@ -25,19 +25,10 @@ sidebar:
   email: 320220948121@lzu.edu.cn
   phone: 15105187418
   citizenship: 中国-江苏-南京
-  party_member: 预备党员
+  party_member: 中共预备党员
   github: https://github.com/fondress
   huggingface: https://huggingface.co/fondress
   pdf: https://drive.google.com/file/d/1MWy43pW4SGSKqA51KcyZqR7oa8_Krt-d/view
-
-  languages:
-    title: 语言能力
-    info:
-    - idiom: 英语
-      level: CET-6（462）
-
-    - idiom: 中文
-      level: 母语
 
   interests:
     title: 兴趣爱好
@@ -51,35 +42,33 @@ sidebar:
     - item: 数学
       link:
       
-  # 新增社团经历部分
   clubs:
     title: 社团经历
     info:
-    - name: 数学协会
-      role: 副会长
-      time: 2023 - 至今
+    - name: 兰州大学社团管理中心
+      role: 综合事务部
+      time: 2022 - 2023
       
-    - name: 人工智能研究社
-      role: 成员
-      time: 2022 - 至今
+    - name: 兰州大学文化行者社团
+      role: 项目委员
+      time: 2022 - 2023
   
-  # 新增担任职位部分
   positions:
     title: 担任职位
     info:
-    - title: 班级代表
-      organization: 数学与统计学院
-      time: 2022 - 至今
+    - title: 足球队队长
+      organization: 兰州大学数学院
+      time: 2022 - 2024
       
-    - title: 学生导师
-      organization: 学生事务办公室
-      time: 2023 - 至今
+    - title: 学习委员
+      organization: 2022级数学基地班
+      time: 2024 - 2026
 
 career-profile:
   title: 个人简介
   summary: |
-    我是一名数学专业本科生，专注于科学智能（AI for Science）与深度学习方向的研究。曾多次主持和参与蛋白质结构预测、多模态框架、视觉大语言模型等相关课题。我的学术和科研经历始终围绕着用人工智能方法解决科学领域的挑战展开。
-    你可以[点击此处下载本简历模板](https://drive.google.com/file/d/1MWy43pW4SGSKqA51KcyZqR7oa8_Krt-d/view)。
+    我是一名数学专业本科生，专注于科学智能（AI for Science）与深度学习方向的研究。曾多次主持和参与深度学习与生物信息学交叉、多模态大模型等相关课题。我的学术和科研经历始终围绕着用人工智能方法解决科学领域的挑战展开。
+    你可以[点击此处下载我的中文简历](https://drive.google.com/file/d/1MWy43pW4SGSKqA51KcyZqR7oa8_Krt-d/view)。
 
 education:
   title: 教育经历
@@ -95,7 +84,7 @@ education:
 publications:
   title: 论文发表
   intro: |
-    以下为本人在人工智能、生物信息学、蛋白质分析等领域的代表性成果：
+    所在课题组为香港城市大学[卢天驰](https://scholars.cityu.edu.hk/en/persons/tianchi-lu(b07e5f18-7e17-443d-841a-7aa1a15f579a)/publications.html)博士的ai4sci_bioinfo小组
   papers:
   - title: A General Language Model for Peptide Identification
     link: https://arxiv.org/abs/2502.15610

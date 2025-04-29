@@ -8,7 +8,11 @@
 <i class="fas fa-circle fa-stack-2x"></i>
 <i class="fas fa-building fa-stack-1x fa-inverse"></i>
 </span>
-{{ internships.title }}
+{% if include.page_data == site.data.data_en %}
+  {{ internships.title | default: "Internship Experience" }}
+{% else %}
+  {{ internships.title | default: "实习经历" }}
+{% endif %}
 </h2>
 
 {% if internships.intro %}
@@ -30,14 +34,26 @@
 
   {% if internship.internship_content %}
   <div class="internship-content">
-    <strong>Internship Content:</strong>
+    <strong>
+      {% if include.page_data == site.data.data_en %}
+        Internship Content:
+      {% else %}
+        实习内容：
+      {% endif %}
+    </strong>
     {{ internship.internship_content | markdownify }}
   </div>
   {% endif %}
 
   {% if internship.company_evaluation %}
   <div class="company-evaluation">
-    <strong>Company Evaluation:</strong>
+    <strong>
+      {% if include.page_data == site.data.data_en %}
+        Company Evaluation:
+      {% else %}
+        单位评价：
+      {% endif %}
+    </strong>
     {{ internship.company_evaluation | markdownify }}
   </div>
   {% endif %}

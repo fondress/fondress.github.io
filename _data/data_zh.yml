@@ -33,13 +33,13 @@ sidebar:
   interests:
     title: 兴趣爱好
     info:
-    - item: 人工智能
+    - item: 多模态大语言模型
+      link:
+
+    - item: 生物序列二分类预测
       link:
 
     - item: 深度学习
-      link:
-
-    - item: 数学
       link:
       
   clubs:

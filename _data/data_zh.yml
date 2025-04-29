@@ -31,12 +31,12 @@ sidebar:
   pdf: https://drive.google.com/file/d/1MWy43pW4SGSKqA51KcyZqR7oa8_Krt-d/view
 
   interests:
-    title: 兴趣爱好
+    title: 研究方向
     info:
-    - item: 多模态大语言模型
+    - item: 生物序列二分类预测
       link:
 
-    - item: 生物序列二分类预测
+    - item: 多模态大语言模型
       link:
 
     - item: 深度学习

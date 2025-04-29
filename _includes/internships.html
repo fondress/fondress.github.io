@@ -1,36 +1,42 @@
 {% assign internships = include.page_data.internships %}
 {% if internships %}
+
 <section class="section internships-section">
-  <h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-building fa-stack-1x fa-inverse"></i>
-    </span>
-    {{ internships.title }}
-  </h2>
 
-  {% if internships.intro %}
-  <div class="intro">
-    {{ internships.intro | markdownify }}
-  </div><!--//intro-->
+<h2 class="section-title">
+<span class="fa-stack fa-xs">
+<i class="fas fa-circle fa-stack-2x"></i>
+<i class="fas fa-building fa-stack-1x fa-inverse"></i>
+</span>
+{{ internships.title }}
+</h2>
+
+{% if internships.intro %}
+<div class="intro">
+  {{ internships.intro | markdownify }}
+</div><!--//intro-->
+{% endif %}
+
+{% for internship in internships.info %}
+
+<div class="item">
+  <div class="meta">
+    <div class="upper-row">
+      <h3 class="job-title">{{ internship.position }}</h3>
+      <div class="time">{{ internship.time }}</div>
+    </div><!--//upper-row-->
+    <div class="company">{{ internship.company }}</div>
+  </div><!--//meta-->
+
+  {% if internship.details %}
+  <div class="details">
+    {{ internship.details | markdownify }}
+  </div><!--//details-->
   {% endif %}
+</div><!--//item-->
 
-  {% for internship in internships.info %}
-  <div class="item">
-    <div class="meta">
-      <div class="upper-row">
-        <h3 class="job-title">{{ internship.position }}</h3>
-        <div class="time">{{ internship.time }}</div>
-      </div><!--//upper-row-->
-      <div class="company">{{ internship.company }}{% if internship.location %} | {{ internship.location }}{% endif %}</div>
-    </div><!--//meta-->
-    {% if internship.details %}
-    <div class="details">
-      {{ internship.details | markdownify }}
-    </div><!--//details-->
-    {% endif %}
-  </div><!--//item-->
-  {% endfor %}
+{% endfor %}
 
 </section><!--//section-->
+
 {% endif %}

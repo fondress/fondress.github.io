@@ -36,7 +36,12 @@
   </h2>
 
   <div class="awards-columns">
-    {% assign categories = "学习,社会实践,体育" | split: "," %}
+    {% if include.page_data == site.data.data_en %}
+      {% assign categories = "Academic,Social Practice,Sports" | split: "," %}
+    {% else %}
+      {% assign categories = "学习,社会实践,体育" | split: "," %}
+    {% endif %}
+    
     {% for cat in categories %}
       <div class="awards-column">
         <div class="awards-column-title">{{ cat }}</div>

@@ -131,6 +131,30 @@ publications:
     authors: Shengrui Xu, Tianchi Lu, Zikun Wang, <span class=myname>Jixiu Zhai</span>, Jingwan Wang
     conference: NureoIPS, Sumitting
 
+# New internships section
+internships:
+  title: Internship Experience
+  intro: |
+    Professional experience in AI research and development:
+  info:
+  - position: AI Research Intern
+    time: June 2024 - Present
+    company: AI4Science Lab, City University of Hong Kong
+    details: |
+      - Working directly with Dr. Tianchi Lu on protein structure prediction and AI for bioinformatics
+      - Developing novel deep learning architectures for protein sequence analysis
+      - Contributing to multiple research papers on peptide identification and phosphorylation site prediction
+      - Applying multimodal transformer models to biological data
+
+  - position: Machine Learning Developer Intern
+    time: December 2023 - May 2024
+    company: Lanzhou University AI & Big Data Lab
+    details: |
+      - Implemented and optimized deep learning models for scientific applications
+      - Built data processing pipelines for large-scale biological datasets
+      - Assisted in developing visualization tools for protein structure analysis
+      - Collaborated with multidisciplinary team of researchers and engineers
+
 experiences:
   title: Research Experience
   info:

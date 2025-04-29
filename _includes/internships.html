@@ -28,10 +28,18 @@
     <div class="company">{{ internship.company }}</div>
   </div><!--//meta-->
 
-  {% if internship.details %}
-  <div class="details">
-    {{ internship.details | markdownify }}
-  </div><!--//details-->
+  {% if internship.internship_content %}
+  <div class="internship-content">
+    <strong>Internship Content:</strong>
+    {{ internship.internship_content | markdownify }}
+  </div>
+  {% endif %}
+
+  {% if internship.company_evaluation %}
+  <div class="company-evaluation">
+    <strong>Company Evaluation:</strong>
+    {{ internship.company_evaluation | markdownify }}
+  </div>
   {% endif %}
 </div><!--//item-->
 

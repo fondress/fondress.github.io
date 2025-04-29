@@ -136,18 +136,19 @@ internships:
   intro: |
     Professional internship experience in the field of artificial intelligence and data technology applications:
   info:
-  - position: Intern
-    time: July 15, 2024 - August 31, 2024
-    company: Nanjing Postal Information Industry Technology Research Institute
-    details: |
-      - Solid theoretical foundation in deep learning and outstanding practical abilities; proficient in using mainstream frameworks such as TensorFlow and PyTorch to build and optimize deep learning models.
-      - Proposed proactive improvements for image recognition projects, significantly enhancing model accuracy and generalization capabilities, showcasing a strong theoretical background and excellent hands-on skills.
-      - Strong self-learning ability and adept at solving practical problems. During the processing of complex datasets, independently researched and applied data augmentation techniques, effectively mitigating class imbalance issues.
-      - Skilled in analyzing the essence of problems and proposing innovative solutions, demonstrating strong independent research capability and technical sensitivity.
-      - Excellent teamwork and communication skills; actively participated in team discussions, clearly explained technical ideas, and willingly shared personal research results.
-      - During model deployment, proactively assisted team members in solving technical challenges, facilitating the smooth implementation of projects and displaying excellent team spirit and communication skills.
-      - Engineering experience needs further improvement. In the process of model deployment and optimization, there is insufficient experience in performance tuning and resource management for production environments, requiring more practical accumulation in large-scale engineering projects.
-
+    - position: Intern
+      time: July 15, 2024 - August 31, 2024
+      company: Nanjing Postal Information Industry Technology Research Institute
+      internship_content: |
+        - Familiar with mainstream frameworks such as TensorFlow and PyTorch, capable of building and optimizing deep learning models.
+        - Proactively proposed improvements for image recognition projects, enhancing model accuracy and generalization.
+        - Independently researched and applied data augmentation techniques to tackle class imbalance.
+        - Analyzed and innovatively solved practical problems in data processing.
+      company_evaluation: |
+        - Shows strong independent learning and research abilities, with technical sensitivity.
+        - Excellent communication and team collaboration; actively participates in group discussions and helps solve technical challenges.
+        - Needs to further improve engineering experience, especially in large-scale project deployments and production environment optimization.
+        
 experiences:
   title: Research Experience
   info:

@@ -131,29 +131,22 @@ publications:
     authors: Shengrui Xu, Tianchi Lu, Zikun Wang, <span class=myname>Jixiu Zhai</span>, Jingwan Wang
     conference: NureoIPS, Sumitting
 
-# New internships section
 internships:
   title: Internship Experience
   intro: |
-    Professional experience in AI research and development:
+    Professional internship experience in the field of artificial intelligence and data technology applications:
   info:
-  - position: AI Research Intern
-    time: June 2024 - Present
-    company: AI4Science Lab, City University of Hong Kong
+  - position: Intern
+    time: July 15, 2024 - August 31, 2024
+    company: Nanjing Postal Information Industry Technology Research Institute
     details: |
-      - Working directly with Dr. Tianchi Lu on protein structure prediction and AI for bioinformatics
-      - Developing novel deep learning architectures for protein sequence analysis
-      - Contributing to multiple research papers on peptide identification and phosphorylation site prediction
-      - Applying multimodal transformer models to biological data
-
-  - position: Machine Learning Developer Intern
-    time: December 2023 - May 2024
-    company: Lanzhou University AI & Big Data Lab
-    details: |
-      - Implemented and optimized deep learning models for scientific applications
-      - Built data processing pipelines for large-scale biological datasets
-      - Assisted in developing visualization tools for protein structure analysis
-      - Collaborated with multidisciplinary team of researchers and engineers
+      - Solid theoretical foundation in deep learning and outstanding practical abilities; proficient in using mainstream frameworks such as TensorFlow and PyTorch to build and optimize deep learning models.
+      - Proposed proactive improvements for image recognition projects, significantly enhancing model accuracy and generalization capabilities, showcasing a strong theoretical background and excellent hands-on skills.
+      - Strong self-learning ability and adept at solving practical problems. During the processing of complex datasets, independently researched and applied data augmentation techniques, effectively mitigating class imbalance issues.
+      - Skilled in analyzing the essence of problems and proposing innovative solutions, demonstrating strong independent research capability and technical sensitivity.
+      - Excellent teamwork and communication skills; actively participated in team discussions, clearly explained technical ideas, and willingly shared personal research results.
+      - During model deployment, proactively assisted team members in solving technical challenges, facilitating the smooth implementation of projects and displaying excellent team spirit and communication skills.
+      - Engineering experience needs further improvement. In the process of model deployment and optimization, there is insufficient experience in performance tuning and resource management for production environments, requiring more practical accumulation in large-scale engineering projects.
 
 experiences:
   title: Research Experience

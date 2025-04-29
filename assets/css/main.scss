@@ -21,3 +21,67 @@ $sidebar-order: 2;
   color: #577899; // 你喜欢的颜色
   font-weight: bold;
 }
+
+/* Add this to your main.scss or create a new internships.scss file */
+
+.internships-section {
+  .item {
+    margin-bottom: 2rem;
+  }
+
+  .upper-row {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 0.2rem;
+  }
+
+  .job-title {
+    color: #3F4650;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 500;
+  }
+
+  .time {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #97AAC3;
+  }
+
+  .company {
+    margin-bottom: 10px;
+    color: #97AAC3;
+  }
+  
+  .details {
+    p {
+      margin-bottom: 0.5rem;
+    }
+    
+    ul {
+      padding-left: 1.5rem;
+      margin-bottom: 0;
+      
+      li {
+        margin-bottom: 0.25rem;
+      }
+    }
+  }
+}
+
+/* Responsive styling for mobile */
+@media (max-width: 767px) {
+  .internships-section {
+    .upper-row {
+      margin-bottom: 0.5rem;
+    }
+    
+    .time {
+      position: static;
+      display: block;
+      margin-top: 0.2rem;
+    }
+  }
+}

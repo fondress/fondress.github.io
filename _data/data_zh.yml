@@ -56,7 +56,7 @@ sidebar:
       time: 2022 - 2023
   
   positions:
-    title: 担任职位
+    title: 任职履历
     info:
     - title: 足球队队长
       organization: 兰州大学数学院
@@ -68,7 +68,7 @@ sidebar:
       
   # 添加体育奖项到侧栏
   sports_awards:
-    title: 体育成就
+    title: 运动成就
     info:
     - name: 南京市"市长杯"足球比赛
       year: 2020

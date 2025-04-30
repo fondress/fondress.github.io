@@ -1,7 +1,7 @@
 sidebar:
   position: right
   about: True
-  education: True
+  education: False # 改为False，将教育经历移至主页面
 
   labels:
     email: 电子邮件
@@ -12,9 +12,11 @@ sidebar:
     pdf: 简历PDF
     education_title: 教育经历
     languages_title: 语言能力
-    interests_title: 兴趣爱好
+    interests_title: 研究方向
     clubs_title: 社团经历
     positions_title: 担任职位
+    sports_awards_title: 体育成就
+    social_practice_title: 社会实践
     
   # Profile information
   name: 翟霁修
@@ -63,6 +65,50 @@ sidebar:
     - title: 学习委员
       organization: 2022级数学基地班
       time: 2024 - 2026
+      
+  # 添加体育奖项到侧栏
+  sports_awards:
+    title: 体育成就
+    info:
+    - name: 南京市"市长杯"足球比赛
+      year: 2020
+      details: 第五名
+      
+    - name: 南京市"名校杯"篮球比赛
+      year: 2020
+      details: 季军
+      
+    - name: 南京市"名校杯"篮球比赛
+      year: 2021
+      details: 冠军
+      
+    - name: 兰州大学校运会男子4*100m接力
+      year: 2024
+      details: 银牌
+      
+  # 添加社会实践奖项到侧栏
+  social_practice_awards:
+    title: 社会实践
+    info:
+    - name: 兰州大学"三下乡"社会实践活动
+      year: 2023
+      details: 优秀学生
+      
+    - name: 兰州大学"三下乡"社会实践活动
+      year: 2023
+      details: 优秀团队、优秀成果
+      
+    - name: 中国大学生知行促进计划
+      year: 2023
+      details: 全国入围奖
+      
+    - name: 兰州大学第四届青年志愿服务大赛创意赛道
+      year: 2023
+      details: 铜奖
+      
+    - name: 圆梦工程服务农村未成年人传承优秀传统文化志愿活动
+      year: 2023
+      details: 优秀团队
 
 career-profile:
   title: 个人简介
@@ -80,6 +126,18 @@ education:
       - 研究方向：科学智能（AI for Science）、深度学习
       - GPA: 85.8（专业14/122）
       - 英语水平：CET-4（557），CET-6（462）
+      
+      **核心课程及成绩：**
+      - 数学分析: 91
+      - 高等代数: 88
+      - 解析几何: 92
+      - 概率论: 87
+      - 数理统计: 85
+      - 微分方程: 89
+      - 泛函分析: 83
+      - 复变函数: 86
+      - 数值分析: 90
+      - 深度学习基础: 94
 
 internships:
   title: 实习经历
@@ -114,8 +172,9 @@ publications:
     authors: Shengrui Xu, Tianchi Lu, Zikun Wang, <span class=myname>Jixiu Zhai</span>, Jingwan Wang
     conference: NureoIPS, [Sumitting](https://drive.google.com/file/d/1wZDFE6VkZ7JLjLhC2lwTWe8XlMwdxWSB/view?usp=drive_link)
     
+# 修改为只保留学习类奖项在主页面
 awards:
-  title: 奖项荣誉
+  title: 学术成就
   info:
     - name: 国家奖学金
       year: 2023 - 2024
@@ -141,51 +200,6 @@ awards:
       year: 2024
       details: 吉林赛区银奖
       category: 学习
-
-    - name: 南京市"市长杯"足球比赛
-      year: 2020
-      details: 第五名
-      category: 体育
-
-    - name: 南京市"名校杯"篮球比赛
-      year: 2020
-      details: 季军
-      category: 体育
-
-    - name: 南京市"名校杯"篮球比赛
-      year: 2021
-      details: 冠军
-      category: 体育
-
-    - name: 兰州大学校运会男子4*100m接力
-      year: 2024
-      details: 银牌
-      category: 体育
-
-    - name: 兰州大学"三下乡"社会实践活动
-      year: 2023
-      details: 优秀学生
-      category: 社会实践
-
-    - name: 兰州大学"三下乡"社会实践活动
-      year: 2023
-      details: 优秀团队、优秀成果
-      category: 社会实践
-  
-    - name: 中国大学生知行促进计划
-      year: 2023
-      details: 全国入围奖
-      category: 社会实践
-
-    - name: 兰州大学第四届青年志愿服务大赛创意赛道
-      year: 2023
-      details: 铜奖
-      category: 社会实践
-
-    - name: 圆梦工程服务农村未成年人传承优秀传统文化志愿活动
-      year: 2023
-      details: 优秀团队
-      category: 社会实践
   
 experiences:
   title: 科研经历

@@ -1,12 +1,10 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
+# Modified data_en.yml file
 
 sidebar:
-  position: right # position of the sidebar: left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: True # set to False if you want education in main section instead of in sidebar
-
+  position: right
+  about: True
+  education: False # Changed to False to move education to main section
+  
   labels:
     email: Email
     phone: Phone
@@ -20,11 +18,13 @@ sidebar:
     interests_title: Interests
     clubs_title: Club Experiences
     positions_title: Positions Held
+    sports_awards_title: Sports Achievements
+    social_practice_title: Social Practice
     
   # Profile information
   name: Jixiu Zhai
   tagline: Mathematics Student & AI Researcher
-  avatar: PHOTO.jpg # Place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  avatar: PHOTO.jpg
 
   # Sidebar links
   email: 320220948121@lzu.edu.cn
@@ -93,6 +93,50 @@ sidebar:
     - title: Student Mentor
       organization: Student Affairs Office
       time: 2023 - Present
+      
+  # Added sports awards to sidebar
+  sports_awards:
+    title: Sports Achievements
+    info:
+    - name: Nanjing "Mayor's Cup" Football Tournament
+      year: 2020
+      details: Fifth Place
+      
+    - name: Nanjing "Elite Schools Cup" Basketball Tournament
+      year: 2020
+      details: Third Place
+      
+    - name: Nanjing "Elite Schools Cup" Basketball Tournament
+      year: 2021
+      details: Champion
+      
+    - name: Lanzhou University Sports Meet Men's 4×100m Relay
+      year: 2024
+      details: Silver Medal
+      
+  # Added social practice awards to sidebar
+  social_practice_awards:
+    title: Social Practice
+    info:
+    - name: Lanzhou University "Three Descends to Countryside" Social Practice Activity
+      year: 2023
+      details: Outstanding Student
+      
+    - name: Lanzhou University "Three Descends to Countryside" Social Practice Activity
+      year: 2023
+      details: Outstanding Team, Outstanding Achievement
+      
+    - name: China College Students Knowledge and Action Promotion Plan
+      year: 2023
+      details: National Finalist Award
+      
+    - name: Lanzhou University 4th Youth Volunteer Service Competition Creative Track
+      year: 2023
+      details: Bronze Award
+      
+    - name: Dream Fulfillment Project Volunteer Activity for Rural Minors' Cultural Heritage
+      year: 2023
+      details: Outstanding Team
 
 career-profile:
   title: Career Profile
@@ -110,6 +154,18 @@ education:
       - Research Focus: AI for Science, Deep Learning
       - GPA: 85.8 (Rank 14/122)
       - English Proficiency: CET-4 (557), CET-6 (462)
+      
+      **Core Courses and Grades:**
+      - Mathematical Analysis: 91
+      - Advanced Algebra: 88
+      - Analytic Geometry: 92
+      - Probability Theory: 87
+      - Mathematical Statistics: 85
+      - Differential Equations: 89
+      - Functional Analysis: 83
+      - Complex Analysis: 86
+      - Numerical Analysis: 90
+      - Deep Learning Fundamentals: 94
 
 publications:
   title: Publications
@@ -188,9 +244,9 @@ experiences:
       - Content: Building a multimodal fusion, cross-domain protein-RNA dynamic prediction framework aimed at improving the accuracy of protein-RNA binding affinity prediction.
       - Responsibilities: Guiding team members in data collection and processing, experiment design, and assisting with paper writing and revisions.
 
-# Only updating the awards section - the rest of the file remains unchanged
+# Modified to keep only academic awards in main section
 awards:
-  title: Awards
+  title: Academic Achievements
   info:
   - name: National Scholarship
     year: 2023 - 2024
@@ -216,51 +272,6 @@ awards:
     year: 2024
     details: Jilin Region Silver Award
     category: Academic
-
-  - name: Nanjing "Mayor's Cup" Football Tournament
-    year: 2020
-    details: Fifth Place
-    category: Sports
-
-  - name: Nanjing "Elite Schools Cup" Basketball Tournament
-    year: 2020
-    details: Third Place
-    category: Sports
-
-  - name: Nanjing "Elite Schools Cup" Basketball Tournament
-    year: 2021
-    details: Champion
-    category: Sports
-
-  - name: Lanzhou University Sports Meet Men's 4×100m Relay
-    year: 2024
-    details: Silver Medal
-    category: Sports
-
-  - name: Lanzhou University "Three Descends to Countryside" Social Practice Activity
-    year: 2023
-    details: Outstanding Student
-    category: Social Practice
-
-  - name: Lanzhou University "Three Descends to Countryside" Social Practice Activity
-    year: 2023
-    details: Outstanding Team, Outstanding Achievement
-    category: Social Practice
-  
-  - name: China College Students Knowledge and Action Promotion Plan
-    year: 2023
-    details: National Finalist Award
-    category: Social Practice
-
-  - name: Lanzhou University 4th Youth Volunteer Service Competition Creative Track
-    year: 2023
-    details: Bronze Award
-    category: Social Practice
-
-  - name: Dream Fulfillment Project Volunteer Activity for Rural Minors' Cultural Heritage
-    year: 2023
-    details: Outstanding Team
-    category: Social Practice
 
 skills:
   title: Skills & Proficiency

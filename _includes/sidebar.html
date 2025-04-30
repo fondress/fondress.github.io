@@ -27,9 +27,47 @@
   {% include language.html %}
   {% include interests.html %}
   
-  <!-- New sections -->
+  <!-- Club experiences section -->
   {% include club-experiences.html page_data=include.page_data %}
+  
+  <!-- Positions held section -->
   {% include positions.html page_data=include.page_data %}
+
+  <!-- Sports Awards section -->
+  {% if sidebar.sports_awards %}
+  <div class="sports-awards-container container-block">
+    <h2 class="container-block-title">
+      {{ sidebar.labels.sports_awards_title | default: "Sports Achievements" }}
+    </h2>
+    <ul class="list-unstyled sports-awards-list">
+      {% for award in sidebar.sports_awards.info %}
+      <li>
+        <strong>{{ award.name }}</strong>
+        {% if award.year %}<span class="award-year">({{ award.year }})</span>{% endif %}
+        {% if award.details %}<div class="award-details">{{ award.details }}</div>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+  
+  <!-- Social Practice section -->
+  {% if sidebar.social_practice_awards %}
+  <div class="social-practice-container container-block">
+    <h2 class="container-block-title">
+      {{ sidebar.labels.social_practice_title | default: "Social Practice" }}
+    </h2>
+    <ul class="list-unstyled social-practice-list">
+      {% for award in sidebar.social_practice_awards.info %}
+      <li>
+        <strong>{{ award.name }}</strong>
+        {% if award.year %}<span class="award-year">({{ award.year }})</span>{% endif %}
+        {% if award.details %}<div class="award-details">{{ award.details }}</div>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
 
   {% if sidebar.about %}
     {% include about.html %}

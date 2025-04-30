@@ -1,31 +1,6 @@
 {% assign awards = include.page_data.awards %}
 {% if awards and awards.info %}
 
-<style>
-.awards-columns {
-  display: flex;
-  gap: 24px;
-}
-.awards-column {
-  flex: 1;
-  min-width: 0;
-}
-.awards-column-title {
-  font-weight: bold;
-  font-size: 1.1em;
-  margin-bottom: 0.5em;
-}
-@media (max-width: 800px) {
-  .awards-columns {
-    flex-direction: column;
-    gap: 0;
-  }
-  .awards-column {
-    margin-bottom: 2em;
-  }
-}
-</style>
-
 <section class="section awards-section">
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
@@ -35,34 +10,20 @@
     {{ awards.title }}
   </h2>
 
-  <div class="awards-columns">
-    {% if include.page_data == site.data.data_en %}
-      {% assign categories = "Academic,Social Practice,Sports" | split: "," %}
-    {% else %}
-      {% assign categories = "学习,社会实践,体育" | split: "," %}
-    {% endif %}
-    
-    {% for cat in categories %}
-      <div class="awards-column">
-        <div class="awards-column-title">{{ cat }}</div>
-        <ul class="fa-ul">
-          {% for award in awards.info %}
-            {% if award.category == cat %}
-              <li>
-                <span class="fa-li"><i class="fas fa-award"></i></span>
-                <strong>{{ award.name }}</strong> ({{ award.year }})
-                {% if award.details %}
-                  <p>{{ award.details }}</p>
-                {% else %}
-                  <p>&nbsp;</p>
-                {% endif %}
-              </li>
-            {% endif %}
-          {% endfor %}
-        </ul>
-      </div>
+  <ul class="fa-ul">
+    {% for award in awards.info %}
+      <li>
+        <span class="fa-li"><i class="fas fa-award"></i></span>
+        <strong>{{ award.name }}</strong> ({{ award.year }})
+        {% if award.details %}
+          <p>{{ award.details }}</p>
+        {% else %}
+          <p>&nbsp;</p>
+        {% endif %}
+      </li>
     {% endfor %}
-  </div>
+  </ul>
+  
 </section><!--//section-->
 
 {% endif %}

@@ -270,13 +270,15 @@ skills:
     level: 60%
 
   - name: C++
-    level: 80%
+    level: 60%
 
   - name: PyTorch
-    level: 90%
+    level: 70%
 
   - name: Linux
     level: 40%
-
+    
+  - name: Latex
+    level: 80%
 footer: >
   Designed with <i class="fas fa-heart"></i> by Jixiu Zhai

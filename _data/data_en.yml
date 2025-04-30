@@ -61,38 +61,38 @@ sidebar:
   interests:
     title: Interests
     info:
-    - item: Artificial Intelligence
+    - item: Biological Sequence Binary Classification
+      link:
+
+    - item: Multimodal Large Language Models
       link:
 
     - item: Deep Learning
-      link:
-
-    - item: Mathematics
       link:
       
   # Club experiences section
   clubs:
     title: Club Experiences
     info:
-    - name: Mathematics Association
-      role: Vice President
-      time: 2023 - Present
+    - name: Lanzhou University Club Management Center
+      role: Comprehensive Affairs Department
+      time: 2022 - 2023
       
-    - name: AI Research Club
-      role: Member
-      time: 2022 - Present
+    - name: Lanzhou University Cultural Explorer Club
+      role: Project Committee Member
+      time: 2022 - 2023
   
   # Positions held section
   positions:
     title: Positions Held
     info:
-    - title: Class Representative
-      organization: School of Mathematics
-      time: 2022 - Present
+    - title: Football Team Captain
+      organization: School of Mathematics, Lanzhou University
+      time: 2022 - 2024
       
-    - title: Student Mentor
-      organization: Student Affairs Office
-      time: 2023 - Present
+    - title: Academic Representative
+      organization: 2022 Mathematics Foundation Class
+      time: 2024 - 2026
       
   # Added sports awards to sidebar
   sports_awards:
@@ -151,59 +151,52 @@ education:
     university: Lanzhou University, School of Mathematics and Statistics
     time: 2022 - Present
     details: |
-      - Research Focus: AI for Science, Deep Learning
       - GPA: 85.8 (Rank 14/122)
       - English Proficiency: CET-4 (557), CET-6 (462)
       
       **Core Courses and Grades:**
-      - Mathematical Analysis: 91
-      - Advanced Algebra: 88
-      - Analytic Geometry: 92
-      - Probability Theory: 87
-      - Mathematical Statistics: 85
-      - Differential Equations: 89
-      - Functional Analysis: 83
-      - Complex Analysis: 86
-      - Numerical Analysis: 90
-      - Deep Learning Fundamentals: 94
+      - Mathematical Analysis (III): 90
+      - Numerical Analysis: 92
+      - Mathematical Modeling: 93
+      - Data Structures: 90
+      - Stochastic Processes: 90
+      - Operations Research: 95
+      - Functional Analysis: 88
+      - Real Analysis: 87
 
 publications:
   title: Publications
   intro: |
-    Below are selected publications related to my research in AI, bioinformatics, and protein analysis:
+    Research group: ai4sci_bioinfo team led by [Tianchi Lu](https://scholars.cityu.edu.hk/en/persons/tianchi-lu(b07e5f18-7e17-443d-841a-7aa1a15f579a)/publications.html), PhD candidate at City University of Hong Kong
   papers:
   - title: A General Language Model for Peptide Identification
     link: https://arxiv.org/abs/2502.15610
     authors: <span class=myname>Jixiu Zhai</span>, Tianchi Lu, Haitian Zhong, Ziyang Xu, Yuhuan Liu, Shengrui Xu, Jingwan Wang, Dan Huang
-    journal: "Knowledge-based Systems, Major Revision"
+    journal: "Knowledge-based Systems, [Major Revision](https://webapps.elsevier.cn/st-wechat/manuscript-status?id=1916727781790781442&utm_source=wechat_session)"
 
   - title: PhosF3C:A Feature Fusion Architecture with Fine-Tuned Protein Language Model and Conformer for Prediction of General Phosphorylation Sites
     link: https://www.biorxiv.org/content/10.1101/2024.12.25.630296v1
     authors: Yuhuan Liu, Haitian Zhong, <span class=myname>Jixiu Zhai</span>, Xueying Wang, Tianchi Lu
-    conference: Briefings in Bioinformatics, Minor Revision
+    conference: "Briefings in Bioinformatics, [Minor Revision](https://drive.google.com/file/d/1xCLlSPINyLAAiyQxW76foABNIbB6AVw9/view?usp=drive_link)"
 
   - title: SCMPPI:Supervised Contrastive Multimodal Framework for Predicting Protein-Protein Interactions
     link: https://arxiv.org/abs/2504.02698
     authors: Shengrui Xu, Tianchi Lu, Zikun Wang, <span class=myname>Jixiu Zhai</span>, Jingwan Wang
-    conference: NureoIPS, Sumitting
+    conference: "NureoIPS, [Sumitting](https://drive.google.com/file/d/1wZDFE6VkZ7JLjLhC2lwTWe8XlMwdxWSB/view?usp=drive_link)"
 
-internships:
-  title: Internship Experience
-  intro: |
-    Professional internship experience in the field of artificial intelligence and data technology applications:
-  info:
-    - position: Intern
-      time: July 15, 2024 - August 31, 2024
-      company: Nanjing Postal Information Industry Technology Research Institute
-      internship_content: |
-        - Familiar with mainstream frameworks such as TensorFlow and PyTorch, capable of building and optimizing deep learning models.
-        - Proactively proposed improvements for image recognition projects, enhancing model accuracy and generalization.
-        - Independently researched and applied data augmentation techniques to tackle class imbalance.
-        - Analyzed and innovatively solved practical problems in data processing.
-      company_evaluation: |
-        - Shows strong independent learning and research abilities, with technical sensitivity.
-        - Excellent communication and team collaboration; actively participates in group discussions and helps solve technical challenges.
-        - Needs to further improve engineering experience, especially in large-scale project deployments and production environment optimization.
+# Commented out the internship section to match Chinese version
+# internships:
+#   title: Internship Experience
+#   intro: |
+#     Professional internship experience in the field of artificial intelligence and data technology applications:
+#   info:
+#     - position: Intern
+#       time: July 15, 2024 - August 31, 2024
+#       company: Nanjing Postal Information Industry Technology Research Institute
+#       internship_content: |
+#         - Responsible for designing, training, and optimizing deep learning models, including implementing image recognition models using TensorFlow and PyTorch, and completing the entire process from data preprocessing to model parameter tuning and validation. Participated in model deployment on servers, ensuring efficient and stable operation in actual business systems.
+#       company_evaluation: |
+#         - Capable of independently completing deep learning model development and deployment tasks, with solid theoretical foundation and outstanding practical ability. Demonstrated good problem analysis and solving skills during the internship, with team spirit, active communication, and willingness to help colleagues solve technical problems, while being very proactive in learning and applying new knowledge.
         
 experiences:
   title: Research Experience
@@ -214,8 +207,8 @@ experiences:
     subject: Deep Learning-Based Prediction of Protein Biological Characteristics
     details: |
       - Advisor: Professor Wang Yejuan
-      - Content: Developed models combining CNN and Transformer modules with improved pretraining and weighted loss functions for protein feature prediction.
-      - Responsibilities: Modeling, data collection, experiment design, visualization, paper writing, and defense.
+      - Content: Proposed protein feature prediction models integrating CNN and Transformer modules with improved pretraining and weighted loss functions
+      - Responsibilities: Modeling, data collection, experiment design, visualization, paper writing, and defense
 
   - role: Principal Investigator
     time: 2025 - 2026
@@ -232,7 +225,7 @@ experiences:
     subject: Visual Large Language Model Knowledge Editing
     details: |
       - Advisor: Professor Huang Yumei
-      - Content: Improving editing efficiency and quality of visual large language models (LVLMs).
+      - Content: Initial understanding of visual large language models, implementing EasyEdit-based knowledge editing methods for LVLMs
       - Responsibilities: Understanding visual large language models and implementing EasyEdit-based knowledge editing methods.
 
   - role: Core Member
@@ -255,7 +248,7 @@ awards:
 
   - name: Lanzhou University Learning Model
     year: 2023 - 2024
-    details: Recognized for academic excellence
+    details: 
     category: Academic
 
   - name: National Undergraduate Mathematics Contest

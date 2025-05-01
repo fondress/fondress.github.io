@@ -23,7 +23,7 @@ sidebar:
     
   # Profile information
   name: Jixiu Zhai
-  tagline: Mathematics Student & AI Researcher
+  tagline: B.S. in Mathematics, Undergraduate Researcher in AI
   avatar: PHOTO.jpg
 
   # Sidebar links
@@ -33,30 +33,9 @@ sidebar:
   party_member: Probationary Party Member
   timezone: Asia/Shanghai
   website: https://github.com/fondress
-  linkedin: 
   github: fondress
   huggingface: https://huggingface.co/fondress
-  telegram: 
-  gitlab: 
-  bitbucket: 
-  bluesky: 
-  twitter: 
-  stack-overflow: 
-  codewars: 
-  goodreads: 
-  mastodon: 
-  hackerrank: 
-  leetcode: 
   pdf: https://drive.google.com/file/d/12IwIF3VH1tF7D1Ja7AZagFu3KMxYSDLY/view?usp=drive_link
-
-  languages:
-    title: Languages
-    info:
-    - idiom: English
-      level: CET-6 (462)
-
-    - idiom: Chinese
-      level: Native
 
   interests:
     title: Interests

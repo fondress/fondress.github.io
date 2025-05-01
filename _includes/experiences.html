@@ -9,29 +9,19 @@
  }
  
  .experiences-section .info-row {
-   position: relative;
-   min-height: 1.5em;
- }
- 
- .experiences-section .role {
-   position: absolute;
-   left: 0;
-   width: 180px;
- }
- 
- .experiences-section .project {
-   position: absolute;
-   left: 200px;
-   right: 120px;
-   text-align: left;
- }
- 
- .experiences-section .time {
-   position: absolute;
-   right: 0;
-   width: 120px;
-   text-align: right;
- }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.experiences-section .role,
+.experiences-section .project,
+.experiences-section .time {
+  flex: 1 1 30%;
+  margin: 5px;
+}
+
  
  @media (max-width: 650px) {
    .experiences-section .info-row {

@@ -5,27 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Experience Section</title>
   <style>
-    body {
-      font-family: 'Open Sans', Arial, sans-serif;
-      color: #333;
-      line-height: 1.5;
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 20px;
-    }
-    .section {
+    .experiences-section-module {
       margin-bottom: 30px;
       padding-bottom: 20px;
       border-bottom: 1px solid #eee;
     }
-    .section-title {
+    .experiences-section-module .section-title {
       position: relative;
       font-size: 20px;
       font-weight: 500;
       margin-bottom: 20px;
       color: #2d7788;
     }
-    .section-icon {
+    .experiences-section-module .section-icon {
       background-color: #2d7788;
       color: white;
       width: 30px;
@@ -37,27 +29,27 @@
       margin-right: 8px;
       font-size: 14px;
     }
-    .item {
+    .experiences-section-module .item {
       margin-bottom: 25px;
     }
-    .subject-row {
+    .experiences-section-module .subject-row {
       font-weight: bold;
       font-size: 1.1em;
       margin-bottom: 2px;
     }
-    .info-row {
+    .experiences-section-module .info-row {
       display: flex;
       justify-content: space-between;
       align-items: center;
       flex-wrap: wrap;
       margin-bottom: 5px;
     }
-    .role {
+    .experiences-section-module .role {
       font-weight: 500;
       color: #555;
       min-width: 120px;
     }
-    .project {
+    .experiences-section-module .project {
       flex: 1;
       text-align: left;
       color: #434343;
@@ -65,28 +57,30 @@
       margin-left: 15px;
       margin-right: 15px;
     }
-    .time {
+    .experiences-section-module .time {
       color: #97AAC3;
       font-style: italic;
       min-width: 100px;
       text-align: right;
     }
-    .company {
+    .experiences-section-module .company {
       color: #555;
       font-weight: 500;
       margin-bottom: 8px;
     }
-    .details {
+    .experiences-section-module .details {
       margin-top: 10px;
       margin-bottom: 10px;
     }
     @media (max-width: 650px) {
-      .info-row {
+      .experiences-section-module .info-row {
         flex-direction: column;
         align-items: flex-start;
         gap: 2px;
       }
-      .project, .role, .time {
+      .experiences-section-module .project,
+      .experiences-section-module .role,
+      .experiences-section-module .time {
         text-align: left;
         padding: 0;
         min-width: unset;
@@ -98,7 +92,7 @@
 <body>
   {% assign experiences = include.page_data.experiences %}
   {% if experiences %}
-    <div class="section">
+    <div class="experiences-section-module">
       <h2 class="section-title">
         <span class="section-icon">X</span>
         {{ experiences.title }}

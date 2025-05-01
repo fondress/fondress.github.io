@@ -4,14 +4,13 @@
 
 <body>
 <!-- 语言切换按钮样式和DOM -->
- <style>
+<style>
  .lang-switch {
-   position: fixed;   /* 让按钮固定在页面上，始终可见 */
-   position: absolute;   /* 让按钮固定在页面上，始终可见 */
-   right: 80rem;       /* 距离右侧距离，单位建议用 rem 或 px */
-   top: 7rem;         /* 距离顶部 */
-   font-size: 1.5rem;
-   z-index: 1000;     /* 确保在主页内容之上 */
+   position: absolute;  /* 相对于最近的定位祖先元素定位 */
+   right: 20px;         /* 距离右侧距离 */
+   top: 20px;           /* 距离顶部 */
+   font-size: 1rem;
+   z-index: 100;        /* 确保在主页内容之上 */
  }
  .lang-switch a {
    padding: 0.3em 0.8em;
@@ -21,9 +20,18 @@
    text-decoration: none;
    color: #333;
    margin-left: 0.5em;
+   transition: all 0.3s ease;
  }
  .lang-switch a:hover {
    background: #e0e0e0;
+ }
+ 
+ /* 响应式设计的媒体查询 */
+ @media (max-width: 767px) {
+   .lang-switch {
+     right: 10px;
+     top: 10px;
+   }
  }
  </style>
  

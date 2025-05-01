@@ -1,49 +1,57 @@
 {% assign education = include.page_data.education %}
- {% assign sidebar = include.page_data.sidebar %}
- {% if education %}
-   {% if sidebar.education %}
-   <div class="education-container container-block">
-     <h2 class="container-block-title">
-       {{ sidebar.labels.education_title | default: education.title }}
-     </h2>
-     {% for graduation in education.info %}
-     <div class="item">
-       <h4 class="degree">{{ graduation.degree }}</h4>
-       <h5 class="meta">{{ graduation.university }}</h5>
-       <div class="time">{{ graduation.time }}</div>
-       {% if graduation.details %}
-       <div class="details">
-         {{ graduation.details | markdownify }}
-       </div>
-       {% endif %}
-     </div><!--//item-->
-     {% endfor %}
-   </div><!--//education-container-->
-   {% else %}
-   <section class="section educations-section">
-     <h2 class="section-title">
-       <span class="fa-stack fa-xs">
-         <i class="fas fa-circle fa-stack-2x"></i>
-         <i class="fas fa-graduation-cap fa-stack-1x fa-inverse"></i>
-       </span>
-       {{ education.title }}
-     </h2>
-     {% for graduation in education.info %}
-     <div class="item">
-       <div class="meta">
-         <div class="upper-row">
-           <h3 class="degree">{{ graduation.degree }}</h3>
-           <div class="time">{{ graduation.time }}</div>
-         </div><!--//upper-row-->
-         <div class="university">{{ graduation.university }}</div>
-       </div><!--//meta-->
-       {% if graduation.details %}
-       <div class="details">
-         {{ graduation.details | markdownify }}
-       </div><!--//details-->
-       {% endif %}
-     </div><!--//item-->
-     {% endfor %}
-   </section><!--//section-->
-   {% endif %}
- {% endif %}
+{% assign sidebar = include.page_data.sidebar %}
+
+<!-- 局部样式，只影响本区域 -->
+<style>
+  .custom-degree {
+    margin-bottom: 12px; /* 调整间距，数字可调 */
+  }
+</style>
+
+{% if education %}
+  {% if sidebar.education %}
+    <div class="education-container container-block">
+      <h2 class="container-block-title">
+        {{ sidebar.labels.education_title | default: education.title }}
+      </h2>
+      {% for graduation in education.info %}
+      <div class="item">
+        <h4 class="degree custom-degree">{{ graduation.degree }}</h4>
+        <h5 class="meta">{{ graduation.university }}</h5>
+        <div class="time">{{ graduation.time }}</div>
+        {% if graduation.details %}
+        <div class="details">
+          {{ graduation.details | markdownify }}
+        </div>
+        {% endif %}
+      </div><!--//item-->
+      {% endfor %}
+    </div><!--//education-container-->
+  {% else %}
+    <section class="section educations-section">
+      <h2 class="section-title">
+        <span class="fa-stack fa-xs">
+          <i class="fas fa-circle fa-stack-2x"></i>
+          <i class="fas fa-graduation-cap fa-stack-1x fa-inverse"></i>
+        </span>
+        {{ education.title }}
+      </h2>
+      {% for graduation in education.info %}
+      <div class="item">
+        <div class="meta">
+          <div class="upper-row">
+            <h3 class="degree custom-degree">{{ graduation.degree }}</h3>
+            <div class="time">{{ graduation.time }}</div>
+          </div><!--//upper-row-->
+          <div class="university">{{ graduation.university }}</div>
+        </div><!--//meta-->
+        {% if graduation.details %}
+        <div class="details">
+          {{ graduation.details | markdownify }}
+        </div><!--//details-->
+        {% endif %}
+      </div><!--//item-->
+      {% endfor %}
+    </section><!--//section-->
+  {% endif %}
+{% endif %}

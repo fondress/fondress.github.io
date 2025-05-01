@@ -151,8 +151,8 @@ education:
     university: Lanzhou University, School of Mathematics and Statistics
     time: 2022 - Present
     details: |
-      GPA: 85.8 (Rank 14/122)
-      English Proficiency: CET-4 (557), CET-6 (462)
+      - GPA: 85.8 (Rank 14/122)
+      - English Proficiency: CET-4 (557), CET-6 (462)
       
       **Core Courses and Grades:**
       - Mathematical Analysis (III): 90
@@ -206,37 +206,37 @@ experiences:
     project: National Innovation and Entrepreneurship Training Program
     subject: Deep Learning-Based Prediction of Protein Biological Characteristics
     details: |
-      - Advisor: Professor Wang Yejuan
-      - Content: Proposed protein feature prediction models integrating CNN and Transformer modules with improved pretraining and weighted loss functions
-      - Responsibilities: Modeling, data collection, experiment design, visualization, paper writing, and defense
+      - **Advisor**: Professor Wang Yejuan
+      - **Content**: Proposed protein feature prediction models integrating CNN and Transformer modules with improved pretraining and weighted loss functions
+      - **Responsibilities**: Modeling, data collection, experiment design, visualization, paper writing, and defense
 
   - role: Principal Investigator
     time: 2025 - 2026
     project: National Innovation and Entrepreneurship Training Program
     subject: Exploring Protein-Small Molecule Binding Affinity using SMILES-based Pretrained Deep Learning Frameworks
     details: |
-      - Advisor: Professor Wang Yejuan
-      - Content: SMILES (Simplified Molecular Input Line Entry System) is a way to represent molecular structures as strings. This project aims to explore SMILES-based pretrained deep learning frameworks to improve the prediction of protein-organic molecule binding affinity.
-      - Responsibilities: Guiding team members on data alignment, experiment design, and helping with writing and revising papers.
+      - **Advisor**: Professor Wang Yejuan
+      - **Content**: SMILES (Simplified Molecular Input Line Entry System) is a way to represent molecular structures as strings. This project aims to explore SMILES-based pretrained deep learning frameworks to improve the prediction of protein-organic molecule binding affinity.
+      - **Responsibilities**: Guiding team members on data alignment, experiment design, and helping with writing and revising papers.
 
   - role: Member
     time: 2024 - 2025
     project: Lanzhou University Cuiying Fund
     subject: Visual Large Language Model Knowledge Editing
     details: |
-      - Advisor: Professor Huang Yumei
-      - Content: Initial understanding of visual large language models, implementing EasyEdit-based knowledge editing methods for LVLMs
-      - Responsibilities: Understanding visual large language models and implementing EasyEdit-based knowledge editing methods.
+      - **Advisor**: Professor Huang Yumei
+      - **Content**: Initial understanding of visual large language models, implementing EasyEdit-based knowledge editing methods for LVLMs
+      - **Responsibilities**: Understanding visual large language models and implementing EasyEdit-based knowledge editing methods.
 
   - role: Core Member
     time: 2025 - 2026
     project: Lanzhou University Cuiying Fund
     subject: Deep Learning-Based Protein-RNA Binding Affinity Prediction
     details: |
-      - Advisor: Professor Zhao Xuejing
-      - Content: Building a multimodal fusion, cross-domain protein-RNA dynamic prediction framework aimed at improving the accuracy of protein-RNA binding affinity prediction.
-      - Responsibilities: Guiding team members in data collection and processing, experiment design, and assisting with paper writing and revisions.
-
+      - **Advisor**: Professor Zhao Xuejing
+      - **Content**: Building a multimodal fusion, cross-domain protein-RNA dynamic prediction framework aimed at improving the accuracy of protein-RNA binding affinity prediction.
+      - **Responsibilities**: Guiding team members in data collection and processing, experiment design, and assisting with paper writing and revisions.
+      
 # Modified to keep only academic awards in main section
 awards:
   title: Academic Achievements

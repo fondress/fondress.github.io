@@ -1,96 +1,131 @@
-{% assign experiences = include.page_data.experiences %}
- {% if experiences %}
- 
- <style>
- .experiences-section .subject-row {
-   font-weight: bold;
-   font-size: 1.1em;
-   margin-bottom: 2px;
- }
- 
- .experiences-section .info-row {
-    position: relative;
-    min-height: 1.5em;
-  }
-  
-  .experiences-section .role {
-    position: absolute;
-    left: 0;
-    width: 180px;
-  }
-  
-  .experiences-section .project {
-    position: absolute;
-    left: 200px;
-    right: 120px;
-    text-align: left;
-  }
-  
-  .experiences-section .time {
-    position: absolute;
-    right: 0;
-    width: 120px;
-    text-align: right;
-  }
-
- 
- @media (max-width: 650px) {
-   .experiences-section .info-row {
-     flex-direction: column;
-     align-items: flex-start;
-     gap: 2px;
-   }
-   .experiences-section .project, 
-   .experiences-section .role, 
-   .experiences-section .time {
-     text-align: left;
-     padding: 0;
-     position: static;
-     width: auto;
-     left: auto;
-     right: auto;
-   }
- }
- </style>
- 
- <section class="section experiences-section">
- 
- <h2 class="section-title">
- <span class="fa-stack fa-xs">
- <i class="fas fa-circle fa-stack-2x"></i>
- <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
- </span>
- {{ experiences.title }}
- </h2>
- 
- {% for experience in experiences.info %}
- 
- <div class="item">
-   <div class="meta">
-     {% if experience.subject %}
-       <div class="subject-row">
-         {% if experience.subject %}
-           <div class="subject-row">{{ experience.subject | markdownify }}</div>
-         {% endif %}
-       </div>
-     {% endif %}
-     <div class="info-row">
-       <div class="role">{{ experience.role }}</div>
-       <div class="project">{{ experience.project }}</div>
-       <div class="time">{{ experience.time }}</div>
-     </div>
-     <div class="company">{{ experience.company }}</div>
-   </div><!--//meta-->
- 
-   {% if experience.details %}
-   <div class="details">
-     {{ experience.details | markdownify }}
-   </div><!--//details-->
-   {% endif %}
- </div><!--//item-->
- 
- {% endfor %}
- 
- </section><!--//section-->
- 
- {% endif %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Experience Section</title>
+  <style>
+    body {
+      font-family: 'Open Sans', Arial, sans-serif;
+      color: #333;
+      line-height: 1.5;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .section {
+      margin-bottom: 30px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #eee;
+    }
+    .section-title {
+      position: relative;
+      font-size: 20px;
+      font-weight: 500;
+      margin-bottom: 20px;
+      color: #2d7788;
+    }
+    .section-icon {
+      background-color: #2d7788;
+      color: white;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 8px;
+      font-size: 14px;
+    }
+    .item {
+      margin-bottom: 25px;
+    }
+    .subject-row {
+      font-weight: bold;
+      font-size: 1.1em;
+      margin-bottom: 2px;
+    }
+    .info-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-bottom: 5px;
+    }
+    .role {
+      font-weight: 500;
+      color: #555;
+      min-width: 120px;
+    }
+    .project {
+      flex: 1;
+      text-align: left;
+      color: #434343;
+      font-weight: 500;
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+    .time {
+      color: #97AAC3;
+      font-style: italic;
+      min-width: 100px;
+      text-align: right;
+    }
+    .company {
+      color: #555;
+      font-weight: 500;
+      margin-bottom: 8px;
+    }
+    .details {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    @media (max-width: 650px) {
+      .info-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2px;
+      }
+      .project, .role, .time {
+        text-align: left;
+        padding: 0;
+        min-width: unset;
+        margin: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  {% assign experiences = include.page_data.experiences %}
+  {% if experiences %}
+    <div class="section">
+      <h2 class="section-title">
+        <span class="section-icon">X</span>
+        {{ experiences.title }}
+      </h2>
+      {% for experience in experiences.info %}
+        <div class="item">
+          <div class="meta">
+            {% if experience.subject %}
+              <div class="subject-row">
+                {{ experience.subject | markdownify }}
+              </div>
+            {% endif %}
+            <div class="info-row">
+              <div class="role">{{ experience.role }}</div>
+              <div class="project">{{ experience.project }}</div>
+              <div class="time">{{ experience.time }}</div>
+            </div>
+            <div class="company">{{ experience.company }}</div>
+          </div>
+          {% if experience.details %}
+            <div class="details">
+              {{ experience.details | markdownify }}
+            </div>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+</body>
+</html>

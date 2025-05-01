@@ -5,27 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Education Section</title>
   <style>
-    body {
-      font-family: 'Open Sans', Arial, sans-serif;
-      color: #333;
-      line-height: 1.5;
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 20px;
-    }
-    .section {
+    .education-section {
       margin-bottom: 30px;
       padding-bottom: 20px;
       border-bottom: 1px solid #eee;
     }
-    .section-title {
+    .education-section .section-title {
       position: relative;
       font-size: 20px;
       font-weight: 500;
       margin-bottom: 20px;
       color: #2d7788;
     }
-    .section-icon {
+    .education-section .section-icon {
       background-color: #2d7788;
       color: white;
       width: 30px;
@@ -37,22 +29,22 @@
       margin-right: 8px;
       font-size: 14px;
     }
-    .degree {
+    .education-section .degree {
       font-weight: 700;
       margin-bottom: 5px;
       color: #434343;
     }
-    .university {
+    .education-section .university {
       font-weight: 500;
       margin-bottom: 10px;
       color: #555;
     }
-    .time {
+    .education-section .time {
       color: #97AAC3;
       font-style: italic;
       margin-bottom: 15px;
     }
-    .details {
+    .education-section .details {
       margin-top: 10px;
       margin-bottom: 10px;
     }
@@ -63,7 +55,7 @@
   {% assign sidebar = include.page_data.sidebar %}
   {% if education %}
     {% if sidebar.education %}
-      <div class="section">
+      <div class="education-section">
         <h2 class="section-title">
           <span class="section-icon">E</span>
           {{ sidebar.labels.education_title | default: education.title }}
@@ -82,7 +74,7 @@
         {% endfor %}
       </div>
     {% else %}
-      <div class="section">
+      <div class="education-section">
         <h2 class="section-title">
           <span class="section-icon">E</span>
           {{ education.title }}

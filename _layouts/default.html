@@ -34,7 +34,15 @@
    }
  }
  </style>
- 
+
+<div class="wrapper">
+  {% if page.url contains '/zh/' %}
+    {% include sidebar.html page_data=site.data.data_zh %}
+  {% else %}
+    {% include sidebar.html page_data=site.data.data_en %}
+  {% endif %}
+
+  
   <div class="main-wrapper">
     <!-- 语言切换按钮 -->
     <div class="lang-switch">

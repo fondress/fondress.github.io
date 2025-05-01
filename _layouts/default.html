@@ -51,6 +51,16 @@
   {% endif %}
 
   <div class="main-wrapper">
+    <!-- 语言切换按钮 -->
+    <div class="lang-switch">
+      {% if page.url contains '/zh/' %}
+        <a href="{{ '/' | relative_url }}">English</a>
+      {% else %}
+        <a href="{{ '/zh/' | relative_url }}">中文</a>
+      {% endif %}
+    </div>
+    <!-- 语言切换按钮结束 -->
+    
     {{ content }}
   </div>
 </div>

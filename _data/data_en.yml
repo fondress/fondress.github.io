@@ -23,7 +23,7 @@ sidebar:
     
   # Profile information
   name: Jixiu Zhai
-  tagline: B.S. in Mathematics, Undergraduate Researcher in AI
+  tagline: Undergraduate Researcher in AI for Science
   avatar: PHOTO.jpg
 
   # Sidebar links
@@ -126,7 +126,7 @@ career-profile:
 education:
   title: Education
   info:
-  - degree: Bachelor of Science in Mathematics (Fundamental Theory Program)
+  - degree: B.S. in Mathematics (Fundamental Theory Program)
     university: Lanzhou University, School of Mathematics and Statistics
     time: 2022 - Present
     details: |

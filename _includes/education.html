@@ -1,98 +1,49 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Education Section</title>
-  <style>
-    .education-section {
-      margin-bottom: 30px;
-      padding-bottom: 20px;
-      border-bottom: 1px solid #eee;
-    }
-    .education-section .section-title {
-      position: relative;
-      font-size: 20px;
-      font-weight: 500;
-      margin-bottom: 20px;
-      color: #2d7788;
-    }
-    .education-section .section-icon {
-      background-color: #2d7788;
-      color: white;
-      width: 30px;
-      height: 30px;
-      border-radius: 50%;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      margin-right: 8px;
-      font-size: 14px;
-    }
-    .education-section .degree {
-      font-weight: 700;
-      margin-bottom: 5px;
-      color: #434343;
-    }
-    .education-section .university {
-      font-weight: 500;
-      margin-bottom: 10px;
-      color: #555;
-    }
-    .education-section .time {
-      color: #97AAC3;
-      font-style: italic;
-      margin-bottom: 15px;
-    }
-    .education-section .details {
-      margin-top: 10px;
-      margin-bottom: 10px;
-    }
-  </style>
-</head>
-<body>
-  {% assign education = include.page_data.education %}
-  {% assign sidebar = include.page_data.sidebar %}
-  {% if education %}
-    {% if sidebar.education %}
-      <div class="education-section">
-        <h2 class="section-title">
-          <span class="section-icon">E</span>
-          {{ sidebar.labels.education_title | default: education.title }}
-        </h2>
-        {% for graduation in education.info %}
-          <div class="education-item">
-            <div class="degree">{{ graduation.degree }}</div>
-            <div class="university">{{ graduation.university }}</div>
-            <div class="time">{{ graduation.time }}</div>
-            {% if graduation.details %}
-              <div class="details">
-                {{ graduation.details | markdownify }}
-              </div>
-            {% endif %}
-          </div>
-        {% endfor %}
-      </div>
-    {% else %}
-      <div class="education-section">
-        <h2 class="section-title">
-          <span class="section-icon">E</span>
-          {{ education.title }}
-        </h2>
-        {% for graduation in education.info %}
-          <div class="education-item">
-            <div class="degree">{{ graduation.degree }}</div>
-            <div class="university">{{ graduation.university }}</div>
-            <div class="time">{{ graduation.time }}</div>
-            {% if graduation.details %}
-              <div class="details">
-                {{ graduation.details | markdownify }}
-              </div>
-            {% endif %}
-          </div>
-        {% endfor %}
-      </div>
-    {% endif %}
-  {% endif %}
-</body>
-</html>
+{% assign education = include.page_data.education %}
+ {% assign sidebar = include.page_data.sidebar %}
+ {% if education %}
+   {% if sidebar.education %}
+   <div class="education-container container-block">
+     <h2 class="container-block-title">
+       {{ sidebar.labels.education_title | default: education.title }}
+     </h2>
+     {% for graduation in education.info %}
+     <div class="item">
+       <h4 class="degree">{{ graduation.degree }}</h4>
+       <h5 class="meta">{{ graduation.university }}</h5>
+       <div class="time">{{ graduation.time }}</div>
+       {% if graduation.details %}
+       <div class="details">
+         {{ graduation.details | markdownify }}
+       </div>
+       {% endif %}
+     </div><!--//item-->
+     {% endfor %}
+   </div><!--//education-container-->
+   {% else %}
+   <section class="section educations-section">
+     <h2 class="section-title">
+       <span class="fa-stack fa-xs">
+         <i class="fas fa-circle fa-stack-2x"></i>
+         <i class="fas fa-graduation-cap fa-stack-1x fa-inverse"></i>
+       </span>
+       {{ education.title }}
+     </h2>
+     {% for graduation in education.info %}
+     <div class="item">
+       <div class="meta">
+         <div class="upper-row">
+           <h3 class="degree">{{ graduation.degree }}</h3>
+           <div class="time">{{ graduation.time }}</div>
+         </div><!--//upper-row-->
+         <div class="university">{{ graduation.university }}</div>
+       </div><!--//meta-->
+       {% if graduation.details %}
+       <div class="details">
+         {{ graduation.details | markdownify }}
+       </div><!--//details-->
+       {% endif %}
+     </div><!--//item-->
+     {% endfor %}
+   </section><!--//section-->
+   {% endif %}
+ {% endif %}

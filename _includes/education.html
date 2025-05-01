@@ -3,9 +3,16 @@
 
 <!-- 局部样式，只影响本区域 -->
 <style>
+  /* 专业与学校之间的行距（主要是 degree 和 university 之间） */
   .custom-degree {
-    margin-bottom: 25px; /* 调整间距，数字可调 */
+    margin-bottom: 8px; /* 专业和学校的间距，可调 */
+    line-height: 1.4;   /* 专业的行高，可调 */
   }
+  .meta, .university {
+    margin-bottom: 18px; /* 学校和下一个信息的间距，可调 */
+    line-height: 1.5;    /* 学校的行高，可调 */
+  }
+  /* 可以继续微调 */
 </style>
 
 {% if education %}
@@ -17,7 +24,7 @@
       {% for graduation in education.info %}
       <div class="item">
         <h4 class="degree custom-degree">{{ graduation.degree }}</h4>
-        <h5 class="meta">{{ graduation.university }}</h5>
+        <h5 class="meta university">{{ graduation.university }}</h5>
         <div class="time">{{ graduation.time }}</div>
         {% if graduation.details %}
         <div class="details">

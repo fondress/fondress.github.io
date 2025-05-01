@@ -2,94 +2,87 @@
 {% if experiences %}
 
 <style>
-.experiences-section .subject-row {
+.experiences-section .item {
+  margin-bottom: 30px;
+}
+
+.experiences-section .meta {
+  margin-bottom: 15px;
+}
+
+.experiences-section .subject {
   font-weight: bold;
   font-size: 1.1em;
-  margin-bottom: 2px;
+  display: block;
+  margin-bottom: 8px;
 }
 
 .experiences-section .info-row {
-  position: relative;
-  min-height: 1.5em;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
 }
 
 .experiences-section .role {
-  position: absolute;
-  left: 0;
-  width: 180px;
+  font-weight: bold;
+  flex: 0 0 180px;
 }
 
 .experiences-section .project {
-  position: absolute;
-  left: 200px;
-  right: 120px;
-  text-align: left;
+  flex: 1;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .experiences-section .time {
-  position: absolute;
-  right: 0;
-  width: 120px;
   text-align: right;
+  flex: 0 0 100px;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 768px) {
   .experiences-section .info-row {
     flex-direction: column;
-    align-items: flex-start;
-    gap: 2px;
+    margin-bottom: 15px;
   }
-  .experiences-section .project, 
-  .experiences-section .role, 
+  
+  .experiences-section .role,
+  .experiences-section .project,
+  .experiences-section .time {
+    margin: 2px 0;
+  }
+  
   .experiences-section .time {
     text-align: left;
-    padding: 0;
-    position: static;
-    width: auto;
-    left: auto;
-    right: auto;
   }
 }
 </style>
 
 <section class="section experiences-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ experiences.title }}
+  </h2>
 
-<h2 class="section-title">
-<span class="fa-stack fa-xs">
-<i class="fas fa-circle fa-stack-2x"></i>
-<i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
-</span>
-{{ experiences.title }}
-</h2>
-
-{% for experience in experiences.info %}
-
-<div class="item">
-  <div class="meta">
+  {% for experience in experiences.info %}
+  <div class="item">
     {% if experience.subject %}
-      <div class="subject-row">
-        {% if experience.subject %}
-          <div class="subject-row">{{ experience.subject | markdownify }}</div>
-        {% endif %}
-      </div>
+      <div class="subject">{{ experience.subject }}</div>
     {% endif %}
+    
     <div class="info-row">
       <div class="role">{{ experience.role }}</div>
       <div class="project">{{ experience.project }}</div>
       <div class="time">{{ experience.time }}</div>
     </div>
-    <div class="company">{{ experience.company }}</div>
-  </div><!--//meta-->
-
-  {% if experience.details %}
-  <div class="details">
-    {{ experience.details | markdownify }}
-  </div><!--//details-->
-  {% endif %}
-</div><!--//item-->
-
-{% endfor %}
-
+    
+    {% if experience.details %}
+    <div class="details">
+      {{ experience.details | markdownify }}
+    </div><!--//details-->
+    {% endif %}
+  </div><!--//item-->
+  {% endfor %}
 </section><!--//section-->
-
-{% endif %}

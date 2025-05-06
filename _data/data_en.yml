@@ -197,6 +197,15 @@ experiences:
       - **Content**: SMILES (Simplified Molecular Input Line Entry System) is a way to represent molecular structures as strings. This project aims to explore SMILES-based pretrained deep learning frameworks to improve the prediction of protein-organic molecule binding affinity.
       - **Responsibilities**: Guiding team members on data alignment, experiment design, and helping with writing and revising papers.
 
+  - role: Core Member  
+    time: 2025 - 2026  
+    project: Lanzhou University Cuiying Fund  
+    subject: Predicting Protein-Protein Interactions Using a Supervised Contrastive Learning Multimodal Framework 
+    details: |
+      - **Advisor**: Professor Xuejing Zhao 
+      - **Content**: This project addresses the challenges of accuracy and generalization in protein-protein interaction (PPI) prediction by proposing an innovative supervised contrastive learning multimodal deep learning framework, SCMPPI. The project creatively designed a dynamic weighted contrastive loss function and developed a multimodal feature projection head to achieve deep integration of three heterogeneous protein features: sequence, structure, and network. Protein network features are extracted using the Node2vec algorithm and combined with an ESMC-based sequence encoder to obtain multi-scale, multimodal embedding vectors, significantly improving the model's discriminative ability. The contrastive learning module incorporates the TM-score as a sample similarity metric to dynamically adjust the weights of negative samples, effectively reducing the false negative rate and optimizing model performance and interpretability.
+      - **Responsibilities**: Proposed the integration of CKSAAP into ESMC pre-training, resulting in more effective feature extraction compared to traditional ESMC approaches.
+      
   - role: Member
     time: 2024 - 2025
     project: Lanzhou University Cuiying Fund

@@ -185,7 +185,7 @@ experiences:
     subject: Deep Learning-Based Prediction of Protein Biological Characteristics
     details: |
       - **Advisor**: Professor Wang Yejuan
-      - **Content**: Proposed protein feature prediction models integrating CNN and Transformer modules with improved pretraining and weighted loss functions
+      - **Content**: PDeepPP is a universal deep learning framework for peptide identification that innovatively integrates protein pretrained language models (such as ESM-2) with a parallel Transformer-CNN architecture, enabling unified modeling of peptide function prediction and post-translational modification (PTM) site identification. This model simultaneously captures both local structural and global sequence features, and introduces the TIM loss function, which effectively improves recognition accuracy and generalization on imbalanced datasets. Experiments covering 37 biological recognition tasks demonstrate that PDeepPP achieves an average AUC improvement of 4.2% on 25 tasks, with accuracy reaching up to 0.97 in some cases—significantly surpassing existing mainstream methods. Additionally, PDeepPP supports rapid analysis of ultra-large-scale proteomic data (with a 218-fold speed increase), greatly reducing dependence on feature engineering and manual annotation. This framework not only enhances the efficiency and accuracy of peptide and PTM prediction but also provides a powerful intelligent tool for large-scale protein function annotation, drug target screening, and related fields, offering broad prospects for both scientific research and industrial applications.
       - **Responsibilities**: Modeling, data collection, experiment design, visualization, paper writing, and defense
 
   - role: Principal Investigator
@@ -194,7 +194,7 @@ experiences:
     subject: Exploring Protein-Small Molecule Binding Affinity using SMILES-based Pretrained Deep Learning Frameworks
     details: |
       - **Advisor**: Professor Wang Yejuan
-      - **Content**: SMILES (Simplified Molecular Input Line Entry System) is a way to represent molecular structures as strings. This project aims to explore SMILES-based pretrained deep learning frameworks to improve the prediction of protein-organic molecule binding affinity.
+      - **Content**: This project focuses on a deep learning framework based on SMILES pretraining to improve the prediction accuracy of protein–organic molecule binding affinity. Innovatively, the concept of a principal value is introduced to integrate multi-dimensional features of molecules and proteins into a single decision metric, significantly optimizing feature fusion and computational efficiency. At the same time, Gaussian noise modeling is employed to simulate the uncertainties in the molecular–protein binding process, enhancing the model’s adaptability to real biological environments. Additionally, by transforming the interaction features of molecules and proteins into two-dimensional matrices for CNN input, the model fully extracts complex interaction information and improves interpretability. The project has completed PubChem dataset processing and preliminary model development, supported by an interdisciplinary team and high-performance computing resources. The results are expected to be efficiently applied in drug development, target prediction, and other fields, driving innovative applications of intelligent computing in the biopharmaceutical industry.
       - **Responsibilities**: Guiding team members on data alignment, experiment design, and helping with writing and revising papers.
 
   - role: Core Member  
@@ -212,7 +212,7 @@ experiences:
     subject: Visual Large Language Model Knowledge Editing
     details: |
       - **Advisor**: Professor Huang Yumei
-      - **Content**: Initial understanding of visual large language models, implementing EasyEdit-based knowledge editing methods for LVLMs
+      - **Content**: This project aims to address the problem of overfitting in knowledge editing for large language models (LLMs). Traditional methods often cause the model’s understanding of other related content to be affected when a specific piece of knowledge is modified, resulting in decreased generalization ability. To tackle this, we propose the REACT framework, which employs a two-stage process of “representation extraction” and “selective perturbation” to precisely locate and selectively adjust the model’s internal knowledge representations. This approach not only enables efficient updating or correction of knowledge within the model, but also effectively avoids side effects and knowledge confusion caused by editing. The method features a clear structure and strong controllability, making it easier for beginners to understand the key technologies and practical significance of knowledge editing in large models.
       - **Responsibilities**: Understanding visual large language models and implementing EasyEdit-based knowledge editing methods.
 
   - role: Core Member
@@ -221,7 +221,7 @@ experiences:
     subject: Deep Learning-Based Protein-RNA Binding Affinity Prediction
     details: |
       - **Advisor**: Professor Zhao Xuejing
-      - **Content**: Building a multimodal fusion, cross-domain protein-RNA dynamic prediction framework aimed at improving the accuracy of protein-RNA binding affinity prediction.
+      - **Content**: This project focuses on the accurate prediction of protein–RNA binding affinity, aiming to provide technological support for the elucidation of gene regulatory mechanisms and the development of RNA-targeted drugs. The innovation lies in the proposed multimodal deep learning framework, which integrates sequence, structural, and dynamic features. It jointly employs the latest protein language model (ESM-2), RNA language model (RNA-BERT), and dynamic k-mer feature extraction, while also incorporating molecular dynamics simulation and graph neural networks to achieve comprehensive feature representation from static to dynamic, and from sequence to spatial dimensions. The model uses a weighted Focal Loss and contrastive loss functions to handle both hard-to-classify samples and global feature distribution, significantly improving prediction accuracy and generalization ability. The project has integrated multiple high-quality datasets and is expected to produce high-level publications and open-source tools, providing a new paradigm for interdisciplinary research and industrial applications in the field of bioinformatics.
       - **Responsibilities**: Guiding team members in data collection and processing, experiment design, and assisting with paper writing and revisions.
       
 # Modified to keep only academic awards in main section

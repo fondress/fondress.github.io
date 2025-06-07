@@ -35,13 +35,13 @@ sidebar:
   interests:
     title: 研究方向
     info:
-    - item: 生物序列二分类预测
+    - item: 蛋白质序列二分类预测
       link:
 
-    - item: 多模态大语言模型
+    - item: 生物分子结合预测
       link:
 
-    - item: 深度学习
+    - item: 深度学习算法改进
       link:
       
   clubs:

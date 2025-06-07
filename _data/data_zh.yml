@@ -119,24 +119,27 @@ career-profile:
 education:
   title: 教育经历
   info:
+  - university: 南京师范大学附属中学
+    time: 2019 - 2022
+    
   - degree: 理学本科生（数学基础理论班）
     university: 兰州大学数学与统计学院
     time: 2022 - 至今
-    details: |
-      - GPA: 85.8（年级14/122）
-      - 英语水平：CET-4（557），CET-6（462）
+    # details: |
+    #   - GPA: 85.8（年级14/122）
+    #   - 英语水平：CET-4（557），CET-6（462）
       
-      **核心课程及成绩：**
-      - 数学分析（三）: 90
-      - 数值分析: 92
-      - 数学模型: 93
-      - 数据结构: 90
-      - 随机过程: 90
-      - 运筹学: 95
-      - 数学物理方程: 88
-      - 代数学选讲: 95
-      - 泛函分析: 88
-      - 实变函数: 85
+    #   **核心课程及成绩：**
+    #   - 数学分析（三）: 90
+    #   - 数值分析: 92
+    #   - 数学模型: 93
+    #   - 数据结构: 90
+    #   - 随机过程: 90
+    #   - 运筹学: 95
+    #   - 数学物理方程: 88
+    #   - 代数学选讲: 95
+    #   - 泛函分析: 88
+    #   - 实变函数: 85
 
 # internships:
 #   title: 实习经历
@@ -159,7 +162,7 @@ publications:
   - title: A General Language Model for Peptide Identification
     link: https://arxiv.org/abs/2502.15610
     authors: <span class=myname>Jixiu Zhai</span>, Tianchi Lu, Haitian Zhong, Ziyang Xu, Yuhuan Liu, Shengrui Xu, Jingwan Wang, Dan Huang
-    conference: Briefings in Bioinformatics, Submitting
+    conference: Expert Systems With Applications, Submitting
 
   - title: PhosF3C:A Feature Fusion Architecture with Fine-Tuned Protein Language Model and Conformer for Prediction of General Phosphorylation Sites
     link: https://www.biorxiv.org/content/10.1101/2024.12.25.630296v1
@@ -169,9 +172,8 @@ publications:
   - title: SCMPPI:Supervised Contrastive Multimodal Framework for Predicting Protein-Protein Interactions
     link: https://arxiv.org/abs/2504.02698
     authors: Shengrui Xu, Tianchi Lu, Zikun Wang, <span class=myname>Jixiu Zhai</span>, Jingwan Wang
-    conference: NeurIPS, [Sumitting](https://drive.google.com/file/d/1wZDFE6VkZ7JLjLhC2lwTWe8XlMwdxWSB/view?usp=drive_link)
+    conference: NeurIPS, [Submitting](https://drive.google.com/file/d/1wZDFE6VkZ7JLjLhC2lwTWe8XlMwdxWSB/view?usp=drive_link)
     
-# 修改为只保留学习类奖项在主页面
 awards:
   title: 学术奖项
   info:

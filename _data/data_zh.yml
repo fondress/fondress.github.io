@@ -119,11 +119,12 @@ career-profile:
 education:
   title: 教育经历
   info:
-  - university: 南京师范大学附属中学
+  - degree: 南京师范大学附属中学
+    university: 
     time: 2019 - 2022
     
-  - degree: 理学本科生（数学基础理论班）
-    university: 兰州大学数学与统计学院
+  - degree: 兰州大学数学与统计学院
+    university: 理学本科生（数学基础理论班）
     time: 2022 - 至今
     # details: |
     #   - GPA: 85.8（年级14/122）

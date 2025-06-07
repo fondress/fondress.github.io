@@ -1,4 +1,4 @@
-# Modified data_en.yml file
+# Updated data_en.yml file to match Chinese version
 
 sidebar:
   position: right
@@ -15,7 +15,7 @@ sidebar:
     pdf: Resume PDF
     education_title: Education
     languages_title: Languages
-    interests_title: Interests
+    interests_title: Research Interests
     clubs_title: Club Experiences
     positions_title: Positions Held
     sports_awards_title: Sports Achievements
@@ -23,7 +23,7 @@ sidebar:
     
   # Profile information
   name: Jixiu Zhai
-  tagline: Undergraduate Researcher in AI for Science
+  tagline: Mathematics Undergraduate & AI for Science Research Assistant
   avatar: PHOTO.jpg
 
   # Sidebar links
@@ -37,15 +37,15 @@ sidebar:
   pdf: https://drive.google.com/file/d/12IwIF3VH1tF7D1Ja7AZagFu3KMxYSDLY/view?usp=drive_link
 
   interests:
-    title: Interests
+    title: Research Interests
     info:
-    - item: Biological Sequence Binary Classification
+    - item: Protein Sequence Binary Classification Prediction
       link:
 
-    - item: Multimodal Large Language Models
+    - item: Biomolecular Binding Prediction
       link:
 
-    - item: Deep Learning
+    - item: Deep Learning Algorithm Improvement
       link:
       
   # Club experiences section
@@ -62,19 +62,19 @@ sidebar:
   
   # Positions held section
   positions:
-    title: Positions Held
+    title: Employment History
     info:
     - title: Football Team Captain
       organization: School of Mathematics, Lanzhou University
       time: 2022 - 2024
       
-    - title: Academic Representative
+    - title: Study Committee Member
       organization: 2022 Mathematics Foundation Class
       time: 2024 - 2026
       
   # Added sports awards to sidebar
   sports_awards:
-    title: Sports Achievements
+    title: Athletic Achievements
     info:
     - name: Nanjing "Mayor's Cup" Football Tournament
       year: 2020
@@ -117,30 +117,36 @@ sidebar:
       details: Outstanding Team
 
 career-profile:
-  title: Career Profile
+  title: Personal Profile
   summary: |
-    I am a mathematics student specializing in AI for Science and deep learning research. I have undertaken multiple research projects focused on protein structure prediction, multimodal frameworks, and visual large language models. My academic and professional journey is driven by a passion for solving scientific challenges using AI methods.
-    You can [download this free resume/CV template here](https://drive.google.com/file/d/12IwIF3VH1tF7D1Ja7AZagFu3KMxYSDLY/view?usp=drive_link).
+    I am a mathematics undergraduate specializing in AI for Science and deep learning research. I have repeatedly led and participated in projects related to the intersection of deep learning and bioinformatics, as well as multimodal large models. My academic and research experience has consistently revolved around using artificial intelligence methods to solve challenges in the scientific field.
+    You can [click here to download my English resume](https://drive.google.com/file/d/12IwIF3VH1tF7D1Ja7AZagFu3KMxYSDLY/view?usp=drive_link).
     
 education:
-  title: Education
+  title: Educational Background
   info:
-  - degree: B.S. in Mathematics (Fundamental Theory Program)
-    university: Lanzhou University, School of Mathematics and Statistics
+  - degree: Nanjing Normal University High School
+    university: 
+    time: 2019 - 2022
+    
+  - degree: School of Mathematics and Statistics, Lanzhou University
+    university: Bachelor of Science (Mathematics Foundation Theory Program)
     time: 2022 - Present
-    details: |
-      - GPA: 85.8 (Rank 14/122)
-      - English Proficiency: CET-4 (557), CET-6 (462)
+    # details: |
+    #   - GPA: 85.8 (Rank 14/122)
+    #   - English Proficiency: CET-4 (557), CET-6 (462)
       
-      **Core Courses and Grades:**
-      - Mathematical Analysis (III): 90
-      - Numerical Analysis: 92
-      - Mathematical Modeling: 93
-      - Data Structures: 90
-      - Stochastic Processes: 90
-      - Operations Research: 95
-      - Functional Analysis: 88
-      - Real Analysis: 87
+    #   **Core Courses and Grades:**
+    #   - Mathematical Analysis (III): 90
+    #   - Numerical Analysis: 92
+    #   - Mathematical Modeling: 93
+    #   - Data Structures: 90
+    #   - Stochastic Processes: 90
+    #   - Operations Research: 95
+    #   - Mathematical Physics Equations: 88
+    #   - Selected Topics in Algebra: 95
+    #   - Functional Analysis: 88
+    #   - Real Analysis: 85
 
 publications:
   title: Publications
@@ -150,7 +156,7 @@ publications:
   - title: A General Language Model for Peptide Identification
     link: https://arxiv.org/abs/2502.15610
     authors: <span class=myname>Jixiu Zhai</span>, Tianchi Lu, Haitian Zhong, Ziyang Xu, Yuhuan Liu, Shengrui Xu, Jingwan Wang, Dan Huang
-    conference: Briefings in Bioinformatics, Submitting
+    conference: Expert Systems With Applications, Submitting
 
   - title: PhosF3C:A Feature Fusion Architecture with Fine-Tuned Protein Language Model and Conformer for Prediction of General Phosphorylation Sites
     link: https://www.biorxiv.org/content/10.1101/2024.12.25.630296v1
@@ -160,7 +166,7 @@ publications:
   - title: SCMPPI:Supervised Contrastive Multimodal Framework for Predicting Protein-Protein Interactions
     link: https://arxiv.org/abs/2504.02698
     authors: Shengrui Xu, Tianchi Lu, Zikun Wang, <span class=myname>Jixiu Zhai</span>, Jingwan Wang
-    conference: "NeurIPS, [Sumitting](https://drive.google.com/file/d/1wZDFE6VkZ7JLjLhC2lwTWe8XlMwdxWSB/view?usp=drive_link)"
+    conference: "NeurIPS, [Submitting](https://drive.google.com/file/d/1wZDFE6VkZ7JLjLhC2lwTWe8XlMwdxWSB/view?usp=drive_link)"
 
 # Commented out the internship section to match Chinese version
 # internships:
@@ -175,62 +181,14 @@ publications:
 #         - Responsible for designing, training, and optimizing deep learning models, including implementing image recognition models using TensorFlow and PyTorch, and completing the entire process from data preprocessing to model parameter tuning and validation. Participated in model deployment on servers, ensuring efficient and stable operation in actual business systems.
 #       company_evaluation: |
 #         - Capable of independently completing deep learning model development and deployment tasks, with solid theoretical foundation and outstanding practical ability. Demonstrated good problem analysis and solving skills during the internship, with team spirit, active communication, and willingness to help colleagues solve technical problems, while being very proactive in learning and applying new knowledge.
-        
-experiences:
-  title: Research Experience
-  info:
-  - role: Principal Investigator
-    time: 2024 - 2025
-    project: National Innovation and Entrepreneurship Training Program
-    subject: Deep Learning-Based Prediction of Protein Biological Characteristics
-    details: |
-      - **Advisor**: Professor Wang Yejuan
-      - **Content**: PDeepPP is a universal deep learning framework for peptide identification that innovatively integrates protein pretrained language models (such as ESM-2) with a parallel Transformer-CNN architecture, enabling unified modeling of peptide function prediction and post-translational modification (PTM) site identification. This model simultaneously captures both local structural and global sequence features, and introduces the TIM loss function, which effectively improves recognition accuracy and generalization on imbalanced datasets. Experiments covering 37 biological recognition tasks demonstrate that PDeepPP achieves an average AUC improvement of 4.2% on 25 tasks, with accuracy reaching up to 0.97 in some cases—significantly surpassing existing mainstream methods. Additionally, PDeepPP supports rapid analysis of ultra-large-scale proteomic data (with a 218-fold speed increase), greatly reducing dependence on feature engineering and manual annotation. This framework not only enhances the efficiency and accuracy of peptide and PTM prediction but also provides a powerful intelligent tool for large-scale protein function annotation, drug target screening, and related fields, offering broad prospects for both scientific research and industrial applications.
-      - **Responsibilities**: Modeling, data collection, experiment design, visualization, paper writing, and defense
 
-  - role: Principal Investigator
-    time: 2025 - 2026
-    project: National Innovation and Entrepreneurship Training Program
-    subject: Exploring Protein-Small Molecule Binding Affinity using SMILES-based Pretrained Deep Learning Frameworks
-    details: |
-      - **Advisor**: Professor Wang Yejuan
-      - **Content**: This project focuses on a deep learning framework based on SMILES pretraining to improve the prediction accuracy of protein–organic molecule binding affinity. Innovatively, the concept of a principal value is introduced to integrate multi-dimensional features of molecules and proteins into a single decision metric, significantly optimizing feature fusion and computational efficiency. At the same time, Gaussian noise modeling is employed to simulate the uncertainties in the molecular–protein binding process, enhancing the model’s adaptability to real biological environments. Additionally, by transforming the interaction features of molecules and proteins into two-dimensional matrices for CNN input, the model fully extracts complex interaction information and improves interpretability. The project has completed PubChem dataset processing and preliminary model development, supported by an interdisciplinary team and high-performance computing resources. The results are expected to be efficiently applied in drug development, target prediction, and other fields, driving innovative applications of intelligent computing in the biopharmaceutical industry.
-      - **Responsibilities**: Guiding team members on data alignment, experiment design, and helping with writing and revising papers.
-
-  - role: Core Member  
-    time: 2025 - 2026  
-    project: Lanzhou University Cuiying Fund  
-    subject: Predicting Protein-Protein Interactions Using a Supervised Contrastive Learning Multimodal Framework 
-    details: |
-      - **Advisor**: Professor Xuejing Zhao 
-      - **Content**: This project addresses the challenges of accuracy and generalization in protein-protein interaction (PPI) prediction by proposing an innovative supervised contrastive learning multimodal deep learning framework, SCMPPI. The project creatively designed a dynamic weighted contrastive loss function and developed a multimodal feature projection head to achieve deep integration of three heterogeneous protein features: sequence, structure, and network. Protein network features are extracted using the Node2vec algorithm and combined with an ESMC-based sequence encoder to obtain multi-scale, multimodal embedding vectors, significantly improving the model's discriminative ability. The contrastive learning module incorporates the TM-score as a sample similarity metric to dynamically adjust the weights of negative samples, effectively reducing the false negative rate and optimizing model performance and interpretability.
-      - **Responsibilities**: Proposed the integration of CKSAAP into ESMC pre-training, resulting in more effective feature extraction compared to traditional ESMC approaches.
-      
-  - role: Member
-    time: 2024 - 2025
-    project: Lanzhou University Cuiying Fund
-    subject: Visual Large Language Model Knowledge Editing
-    details: |
-      - **Advisor**: Professor Huang Yumei
-      - **Content**: This project aims to address the problem of overfitting in knowledge editing for large language models (LLMs). Traditional methods often cause the model’s understanding of other related content to be affected when a specific piece of knowledge is modified, resulting in decreased generalization ability. To tackle this, we propose the REACT framework, which employs a two-stage process of “representation extraction” and “selective perturbation” to precisely locate and selectively adjust the model’s internal knowledge representations. This approach not only enables efficient updating or correction of knowledge within the model, but also effectively avoids side effects and knowledge confusion caused by editing. The method features a clear structure and strong controllability, making it easier for beginners to understand the key technologies and practical significance of knowledge editing in large models.
-      - **Responsibilities**: Understanding visual large language models and implementing EasyEdit-based knowledge editing methods.
-
-  - role: Core Member
-    time: 2025 - 2026
-    project: Lanzhou University Cuiying Fund
-    subject: Deep Learning-Based Protein-RNA Binding Affinity Prediction
-    details: |
-      - **Advisor**: Professor Zhao Xuejing
-      - **Content**: This project focuses on the accurate prediction of protein–RNA binding affinity, aiming to provide technological support for the elucidation of gene regulatory mechanisms and the development of RNA-targeted drugs. The innovation lies in the proposed multimodal deep learning framework, which integrates sequence, structural, and dynamic features. It jointly employs the latest protein language model (ESM-2), RNA language model (RNA-BERT), and dynamic k-mer feature extraction, while also incorporating molecular dynamics simulation and graph neural networks to achieve comprehensive feature representation from static to dynamic, and from sequence to spatial dimensions. The model uses a weighted Focal Loss and contrastive loss functions to handle both hard-to-classify samples and global feature distribution, significantly improving prediction accuracy and generalization ability. The project has integrated multiple high-quality datasets and is expected to produce high-level publications and open-source tools, providing a new paradigm for interdisciplinary research and industrial applications in the field of bioinformatics.
-      - **Responsibilities**: Guiding team members in data collection and processing, experiment design, and assisting with paper writing and revisions.
-      
 # Modified to keep only academic awards in main section
 awards:
-  title: Academic Achievements
+  title: Academic Awards
   info:
   - name: National Scholarship
     year: 2023 - 2024
-    details: Rank 3/50
+    details: Professional Rank 3/50
     category: Academic
 
   - name: Lanzhou University Learning Model
@@ -252,6 +210,54 @@ awards:
     year: 2024
     details: Jilin Region Silver Award
     category: Academic
+        
+experiences:
+  title: Research Experience
+  info:
+  - role: Principal Investigator
+    time: 2024 - 2025
+    project: National Innovation and Entrepreneurship Training Program
+    subject: Deep Learning-Based Prediction of Protein Sequence Biological Characteristics
+    details: |
+      - **Advisor**: Professor Wang Yejuan
+      - **Project Content**: PDeepPP is a universal deep learning framework for peptide identification that innovatively integrates protein pretrained language models (such as ESM-2) with a parallel Transformer-CNN architecture, enabling unified modeling of peptide function prediction and post-translational modification (PTM) site identification. This model simultaneously captures both local structural and global sequence features, and introduces the TIM loss function, which effectively improves recognition accuracy and generalization on imbalanced datasets. Experiments covering 37 biological recognition tasks demonstrate that PDeepPP achieves an average AUC improvement of 4.2% on 25 tasks, with accuracy reaching up to 0.97 in some cases—significantly surpassing existing mainstream methods. Additionally, PDeepPP supports rapid analysis of ultra-large-scale proteomic data (with a 218-fold speed increase), greatly reducing dependence on feature engineering and manual annotation. This framework not only enhances the efficiency and accuracy of peptide and PTM prediction but also provides a powerful intelligent tool for large-scale protein function annotation, drug target screening, and related fields, offering broad prospects for both scientific research and industrial applications.
+      - **Main Responsibilities**: Modeling, data collection, experiment design, visualization, paper writing and defense; Python/LaTeX code implementation for all the above processes
+
+  - role: Principal Investigator
+    time: 2025 - 2026
+    project: National Innovation and Entrepreneurship Training Program
+    subject: Exploring Protein-Organic Molecule Affinity using SMILES-based Pretrained Deep Learning Frameworks
+    details: |
+      - **Advisor**: Professor Wang Yejuan
+      - **Project Content**: This project focuses on a deep learning framework based on SMILES pretraining to improve the prediction accuracy of protein-organic molecule binding affinity. Innovatively, the concept of a principal value is introduced to integrate multi-dimensional features of molecules and proteins into a single decision metric, significantly optimizing feature fusion and computational efficiency. At the same time, Gaussian noise modeling is employed to simulate the uncertainties in the molecular-protein binding process, enhancing the model's adaptability to real biological environments. Additionally, by transforming the interaction features of molecules and proteins into two-dimensional matrices for CNN input, the model fully extracts complex interaction information and improves interpretability. The project has completed PubChem dataset processing and preliminary model development, supported by an interdisciplinary team and high-performance computing resources. The results are expected to be efficiently applied in drug development, target prediction, and other fields, driving innovative applications of intelligent computing in the biopharmaceutical industry.
+      - **Main Responsibilities**: Guiding team members on data alignment, experiment design, and helping with writing and revising papers.
+
+  - role: Core Member  
+    time: 2025 - 2026  
+    project: Lanzhou University Cuiying Fund  
+    subject: Predicting Protein-Protein Interactions Using a Supervised Contrastive Learning Multimodal Framework 
+    details: |
+      - **Advisor**: Professor Zhao Xuejing 
+      - **Project Content**: This project addresses the challenges of accuracy and generalization in protein-protein interaction (PPI) prediction by proposing an innovative supervised contrastive learning multimodal deep learning framework, SCMPPI. The project creatively designed a dynamic weighted contrastive loss function and developed a multimodal feature projection head to achieve deep integration of three heterogeneous protein features: sequence, structure, and network. Protein network features are extracted using the Node2vec algorithm and combined with an ESMC-based sequence encoder to obtain multi-scale, multimodal embedding vectors, significantly improving the model's discriminative ability. The contrastive learning module incorporates the TM-score as a sample similarity metric to dynamically adjust the weights of negative samples, effectively reducing the false negative rate and optimizing model performance and interpretability.
+      - **Main Responsibilities**: Proposed the integration of CKSAAP into ESMC pre-training, resulting in more effective feature extraction compared to traditional ESMC approaches.
+      
+  - role: Member
+    time: 2024 - 2025
+    project: Lanzhou University Cuiying Fund
+    subject: Visual Large Language Model Knowledge Editing
+    details: |
+      - **Advisor**: Professor Huang Yumei
+      - **Project Content**: This project aims to address the problem of overfitting in knowledge editing for large language models (LLMs). Traditional methods often cause the model's understanding of other related content to be affected when a specific piece of knowledge is modified, resulting in decreased generalization ability. To tackle this, we propose the REACT framework, which employs a two-stage process of "representation extraction" and "selective perturbation" to precisely locate and selectively adjust the model's internal knowledge representations. This approach not only enables efficient updating or correction of knowledge within the model, but also effectively avoids side effects and knowledge confusion caused by editing. The method features a clear structure and strong controllability, making it easier for beginners to understand the key technologies and practical significance of knowledge editing in large models.
+      - **Main Responsibilities**: Preliminary understanding of visual large language models and reproducing large model knowledge editing methods on EasyEdit.
+
+  - role: Core Member
+    time: 2025 - 2026
+    project: Lanzhou University Cuiying Fund
+    subject: Deep Learning-Based Protein-RNA Binding Affinity Prediction
+    details: |
+      - **Advisor**: Professor Zhao Xuejing
+      - **Project Content**: This project focuses on the accurate prediction of protein-RNA binding affinity, aiming to provide technological support for the elucidation of gene regulatory mechanisms and the development of RNA-targeted drugs. The innovation lies in the proposed multimodal deep learning framework, which integrates sequence, structural, and dynamic features. It jointly employs the latest protein language model (ESM-2), RNA language model (RNA-BERT), and dynamic k-mer feature extraction, while also incorporating molecular dynamics simulation and graph neural networks to achieve comprehensive feature representation from static to dynamic, and from sequence to spatial dimensions. The model uses a weighted Focal Loss and contrastive loss functions to handle both hard-to-classify samples and global feature distribution, significantly improving prediction accuracy and generalization ability. The project has integrated multiple high-quality datasets and is expected to produce high-level publications and open-source tools, providing a new paradigm for interdisciplinary research and industrial applications in the field of bioinformatics.
+      - **Main Responsibilities**: Guiding team members in data collection and processing, experiment design, and assisting with paper writing and revisions.
 
 skills:
   title: Skills & Proficiency
@@ -271,5 +277,6 @@ skills:
     
   - name: Latex
     level: 80%
+
 footer: >
   Designed with <i class="fas fa-heart"></i> by Jixiu Zhai
